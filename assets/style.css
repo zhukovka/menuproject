@@ -1,3 +1,16 @@
+body{
+	margin: 0;
+}
 .banner{
-	background: url(assets/images/burgers.jpeg);
+	background: url(images/burgers.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:634px;
+
+}
+
+.logo{
+	height: 100%;
+	width: 35%;
+	margin: auto;
 }
