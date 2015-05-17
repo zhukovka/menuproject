@@ -1,3 +1,30 @@
+body{
+	margin: 0;
+}
+
+/*@font-face{
+	font-family:'Aleo';
+	src: url('fonts/aleo-regular-webfont.eot');
+	src: url();
+}*/
+
 .banner{
-	background: url(assets/images/burgers.jpeg);
+	background: url(images/burgers.jpeg);
+	height: 634px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.logo{
+	background-color: wheat;
+	height: 100%;
+	width: 35%;
+	margin: auto;
+	font-family: Aleo;
+	font-size: 40px;
+	color: white;
+}
+
+.logo>span{
+	font-family:;
 }
