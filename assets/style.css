@@ -1,16 +1,33 @@
 body{
 	margin: 0;
 }
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.eot'); /* IE9 Compat Modes */
+    /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
+    src: url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.woff') format('woff'), 
+        url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.ttf')  format('truetype'), 
+        url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.svg') format('svg'); /* Legacy iOS */               
+    font-style:   normal;
+    font-weight:  400;
+
+}
 .banner{
 	background: url(images/burgers.jpeg);
-	height: 634px;
 	background-size: cover;
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
+	height: 634px;
+
 }
+
 .logo{
 	height: 100%;
 	width: 35%;
-	background: #6699FF;
 	margin: auto;
+	font-family: 'Aleo';
+	font-size: 40px;
+	color: white;
 }
 
