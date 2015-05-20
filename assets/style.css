@@ -8,10 +8,7 @@ body{
 
 h1 { font-family: 'Aleo-Bold' }
 h2 { font-family: 'Museo-Sans-300'}
-h3 {font-family: 'Museo-Sans-700'}
-
-
-
+h3 { font-family: 'Museo-Sans-700'}
 .banner{
 	background: url(images/burgers.jpeg);
 	background-size: cover;
