@@ -1,7 +1,3 @@
-body{
-	margin: 0;
-}
-
 @font-face {
     font-family: 'Aleo';
     src: url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.eot'); /* IE9 Compat Modes */
@@ -107,6 +103,8 @@ body{
 
 body{
 	margin: 0;
+    font-family: 'museo_sans_cyrl500';
+    font-size: 100%;
 }
 
 h1 {
