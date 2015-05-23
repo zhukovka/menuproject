@@ -1,10 +1,9 @@
-
 body{
 	margin: 0;
 }
 
-@font-face {
-    font-family: 'Aleo';
+ @font-face {
+    font-family: 'Aleo Regular';
     src: url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.eot'); /* IE9 Compat Modes */
     /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
     src: url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.eot?#iefix') format('embedded-opentype'), 
@@ -13,8 +12,85 @@ body{
         url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.svg') format('svg'); /* Legacy iOS */               
     font-style:   normal;
     font-weight:  400;
-
 }
+
+@font-face {
+    font-family: 'Aleo Light';
+    src: url('fonts/Webfont%20Kit/Light/aleo-light-webfont.eot'); /* IE9 Compat Modes */
+    /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
+    src: url('fonts/Webfont%20Kit/Light/aleo-light-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('fonts/Webfont%20Kit/Light/aleo-light-webfont.woff') format('woff'), 
+        url('fonts/Webfont%20Kit/Light/aleo-light-webfont.ttf')  format('truetype'), 
+        url('fonts/Webfont%20Kit/Light/aleo-light-webfont.svg') format('svg'); /* Legacy iOS */               
+    font-style:   normal;
+    font-weight:  400;
+}
+
+@font-face {
+    font-family: 'Aleo Bold';
+    src: url('fonts/Webfont%20Kit/Bold/aleo-bold-webfont.eot'); /* IE9 Compat Modes */
+    /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
+    src: url('fonts/Webfont%20Kit/Bold/aleo-bold-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('fonts/Webfont%20Kit/Bold/aleo-bold-webfont.woff') format('woff'), 
+        url('fonts/Webfont%20Kit/Bold/aleo-bold-webfont.ttf')  format('truetype'), 
+        url('fonts/Webfont%20Kit/Bold/aleo-bold-webfont.svg') format('svg'); /* Legacy iOS */               
+    font-style:   normal;
+    font-weight:  400;
+}
+
+ @font-face {
+    font-family: 'Aleo Regular Italic';
+    src: url('fonts/Webfont%20Kit/Regular%20Italic/aleo-italic-webfont.eot'); /* IE9 Compat Modes */
+    /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
+    src: url('fonts/Webfont%20Kit/Regular%20Italic/aleo-italic-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('fonts/Webfont%20Kit/Regular%20Italic/aleo-italic-webfont.woff') format('woff'), 
+        url('fonts/Webfont%20Kit/Regular%20Italic/aleo-italic-webfont.ttf')  format('truetype'), 
+        url('fonts/Webfont%20Kit/Regular%20Italic/aleo-italic-webfont.svg') format('svg'); /* Legacy iOS */               
+    font-style:   normal;
+    font-weight:  400;
+}
+
+
+ @font-face {
+    font-family: 'MuseoSans300';
+    src: url('fonts/MuseoSans/museo-sans-300-webfont.eot'); /* IE9 Compat Modes */
+    /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
+    src: url('fonts/MuseoSans/museo-sans-300-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('fonts/MuseoSans/museo-sans-300-webfont.woff') format('woff'), 
+        url('fonts/MuseoSans/museo-sans-300-webfont.ttf')  format('truetype'), 
+        url('fonts/MuseoSans/museo-sans-300-webfont.svg') format('svg'); /* Legacy iOS */               
+    font-style:   normal;
+    font-weight:  400;
+}
+
+
+ @font-face {
+    font-family: 'MuseoSans500';
+    src: url('fonts/MuseoSans/museo-sans-500-webfont.eot'); /* IE9 Compat Modes */
+    /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
+    src: url('fonts/MuseoSans/museo-sans-500-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('fonts/MuseoSans/museo-sans-500-webfont.woff') format('woff'), 
+        url('fonts/MuseoSans/museosans_500-webfont.ttf') format('truetype'), 
+        url('fonts/MuseoSans/museo-sans-500-webfont.svg') format('svg'); /* Legacy iOS */               
+    font-style:   normal;
+    font-weight:  20;
+}
+
+
+ @font-face {
+    font-family: 'MuseoSans700';
+    src: url('fonts/MuseoSans/museo-sans-700-webfont.eot'); /* IE9 Compat Modes */
+    /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
+    src: url('fonts/MuseoSans/museo-sans-700-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('fonts/MuseoSans/museo-sans-700-webfont.woff') format('woff'), 
+        url('fonts/MuseoSans/museo-sans-700-webfont.ttf')  format('truetype'), 
+        url('fonts/MuseoSans/museo-sans-700-webfont.svg') format('svg'); /* Legacy iOS */               
+    font-style:   normal;
+    font-weight:  400;
+}
+
+
+
 .banner{
 	background: url(images/burgers.jpeg);
 	background-size: cover;
@@ -27,8 +103,49 @@ body{
 	height: 100%;
 	width: 35%;
 	margin: auto;
-	font-family: 'Aleo';
+	font-family: 'Aleo Light';
 	font-size: 40px;
 	color: white;
+	text-align: center;
 }
 
+.logo>span{
+	font-family: 'Aleo Bold';
+}
+
+.shares{
+	font-family: 'Aleo Regular';
+	font-size: 23px;
+	text-align: left;
+	vertical-align: middle;	
+}
+
+.meal_type{
+	font-family: 'Aleo Regular Italic';
+	font-size: 23px;
+	text-align: left;
+	vertical-align: middle;	
+
+}
+
+.food_drinks{
+	font-family: 'Aleo Bold';
+	font-size: 40px;
+	color: black;
+}
+
+.food_drinks>div{
+	font-family: 'Aleo Bold';
+	font-size: 20px;
+	color: black;
+}
+
+.food_drinks>div>div{
+	font-family: 'MuseoSans500';
+	font-size: 15px;
+}
+
+.tabs_name{
+	font-family: 'Aleo Bold';
+	font-size: 20px;
+}
