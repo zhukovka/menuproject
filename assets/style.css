@@ -2,6 +2,7 @@ body{
 	margin: 0;
 }
 
+<<<<<<< HEAD
 .Aleo-light {
 	font-family: 'Aleo-light';
 }
@@ -30,8 +31,10 @@ h3 { font-family: 'Museo-Sans-700'}
 
   /* ——————————————————————————    Aleo   —————————————————————————*/
 
+=======
+>>>>>>> 191e561a4a4fc28ddf6390a8b7b4e66276a8f6c2
 @font-face {
-    font-family: 'Aleo-Regular';
+    font-family: 'Aleo';
     src: url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.eot'); /* IE9 Compat Modes */
     /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
     src: url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.eot?#iefix') format('embedded-opentype'), 
@@ -39,11 +42,12 @@ h3 { font-family: 'Museo-Sans-700'}
         url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.ttf')  format('truetype'), 
         url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.svg') format('svg'); /* Legacy iOS */               
     font-style:   normal;
-    font-weight:  normal;
+    font-weight:  400;
+
 }
 
 @font-face {
-    font-family: 'Aleo-Bold';
+    font-family: 'Aleo_Blod';
     src: url('fonts/Webfont%20Kit/Bold/aleo-bold-webfont.eot'); /* IE9 Compat Modes */
     /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
     src: url('fonts/Webfont%20Kit/Bold/aleo-bold-webfont.eot?#iefix') format('embedded-opentype'), 
@@ -51,24 +55,12 @@ h3 { font-family: 'Museo-Sans-700'}
         url('fonts/Webfont%20Kit/Bold/aleo-bold-webfont.ttf')  format('truetype'), 
         url('fonts/Webfont%20Kit/Bold/aleo-bold-webfont.svg') format('svg'); /* Legacy iOS */               
     font-style:   normal;
-    font-weight:  normal;
-}
-
-@font-face{
-	font-family: 'Aleo-Regular-Italic';
- 	src: url('fonts/Webfont%20Kit/Regular Italic/aleo-italic-webfont.eot'); /* IE9 Compat Modes */
-    /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
-    src: url('fonts/Webfont%20Kit/Regular Italic/aleo-italic-webfont.eot?#iefix') format('embedded-opentype'), 
-        url('fonts/Webfont%20Kit/Regular Italic/aleo-italic-webfont.woff') format('woff'), 
-        url('fonts/Webfont%20Kit/Regular Italic/aleo-italic-webfont.ttf')  format('truetype'), 
-        url('fonts/Webfont%20Kit/Regular Italic/aleo-italic-webfont.svg') format('svg'); /* Legacy iOS */               
-    font-style:   normal;
-    font-weight:  normal;
+    font-weight:  400;
 
 }
 
 @font-face {
-    font-family: 'Aleo-Bold-Italic';
+    font-family: 'Aleo_BlodItalic';
     src: url('fonts/Webfont%20Kit/Bold Italic/aleo-bolditalic-webfont.eot'); /* IE9 Compat Modes */
     /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
     src: url('fonts/Webfont%20Kit/Bold Italic/aleo-bolditalic-webfont.eot?#iefix') format('embedded-opentype'), 
@@ -76,66 +68,107 @@ h3 { font-family: 'Museo-Sans-700'}
         url('fonts/Webfont%20Kit/Bold Italic/aleo-bolditalic-webfont.ttf')  format('truetype'), 
         url('fonts/Webfont%20Kit/Bold Italic/aleo-bolditalic-webfont.svg') format('svg'); /* Legacy iOS */               
     font-style:   normal;
-    font-weight:  normal;
+    font-weight:  400;
+
 }
 
-@font-face{
-	font-family: 'Aleo-Light';
- 	src: url('fonts/Webfont%20Kit/Light/aleo-light-webfont.eot'); /* IE9 Compat Modes */
+@font-face {
+    font-family: 'Aleo_Light';
+    src: url('fonts/Webfont%20Kit/Light/aleo-light-webfont.eot'); /* IE9 Compat Modes */
     /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
     src: url('fonts/Webfont%20Kit/Light/aleo-light-webfont.eot?#iefix') format('embedded-opentype'), 
         url('fonts/Webfont%20Kit/Light/aleo-light-webfont.woff') format('woff'), 
         url('fonts/Webfont%20Kit/Light/aleo-light-webfont.ttf')  format('truetype'), 
         url('fonts/Webfont%20Kit/Light/aleo-light-webfont.svg') format('svg'); /* Legacy iOS */               
     font-style:   normal;
-    font-weight:  normal;
+    font-weight:  400;
+
 }
 
-@font-face{
-	font-family: 'Aleo-Italic-Light';
- 	src: url('fonts/Webfont%20Kit/Light Italic/aleo-lightitalic-webfont.eot'); /* IE9 Compat Modes */
+@font-face {
+    font-family: 'Aleo_LightItalic';
+    src: url('fonts/Webfont%20Kit/Light Italic/aleo-lightitalic-webfont.eot'); /* IE9 Compat Modes */
     /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
     src: url('fonts/Webfont%20Kit/Light Italic/aleo-lightitalic-webfont.eot?#iefix') format('embedded-opentype'), 
         url('fonts/Webfont%20Kit/Light Italic/aleo-lightitalic-webfont.woff') format('woff'), 
         url('fonts/Webfont%20Kit/Light Italic/aleo-lightitalic-webfont.ttf')  format('truetype'), 
         url('fonts/Webfont%20Kit/Light Italic/aleo-lightitalic-webfont.svg') format('svg'); /* Legacy iOS */               
     font-style:   normal;
-    font-weight:  normal;
-}
-  /* ——————————————————————————    Museo Sans   —————————————————————————*/
+    font-weight:  400;
 
-  @font-face{
-    font-family: 'Museo-Sans-300';
-    src: url('fonts/Webfont%20Kit/MuseoSans 300/museo300-regular.eot'); /* IE9 Compat Modes */
-    /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
-    src: url('fonts/Webfont%20Kit/MuseoSans 300/museo300-regular.eot?#iefix') format('embedded-opentype'), 
-        url('fonts/Webfont%20Kit/MuseoSans 300/museo300-regular.woff') format('woff'), 
-        url('fonts/Webfont%20Kit/MuseoSans 300/museo300-regular.ttf')  format('truetype'), 
-        url('fonts/Webfont%20Kit/MuseoSans 300/museo300-regular.svg') format('svg'); /* Не нашол Legacy iOS */               
-    font-style:   normal;
-    font-weight:  normal;
 }
 
-@font-face{
-    font-family: 'Museo-Sans-500';
-    src: url('fonts/Webfont%20Kit/MuseoSans 500/MuseoSans_500-webfont.eot'); /* IE9 Compat Modes */
+@font-face {
+    font-family: 'Aleo_Regular_Italic';
+    src: url('fonts/Webfont%20Kit/Regular Italic/aleo-italic-webfont.eot'); /* IE9 Compat Modes */
     /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
-    src: url('fonts/Webfont%20Kit/MuseoSans 500/MuseoSans_500-webfont.eot?#iefix') format('embedded-opentype'), 
-        url('fonts/Webfont%20Kit/MuseoSans 500/MuseoSans_500-webfont.woff') format('woff'), 
-        url('fonts/Webfont%20Kit/MuseoSans 500/MuseoSans_500-webfont.ttf')  format('truetype'), 
-        url('fonts/Webfont%20Kit/MuseoSans 500/MuseoSans_500-webfont.svg') format('svg'); /* Legacy iOS */               
+    src: url('fonts/Webfont%20Kit/Regular Italic/aleo-italic-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('fonts/Webfont%20Kit/Regular Italic/aleo-italic-webfont.woff') format('woff'), 
+        url('fonts/Webfont%20Kit/Regular Italic/aleo-italic-webfont.ttf')  format('truetype'), 
+        url('fonts/Webfont%20Kit/Regular Italic/aleo-italic-webfont.svg') format('svg'); /* Legacy iOS */               
     font-style:   normal;
-    font-weight:  normal;
+    font-weight:  400;
+
 }
 
-@font-face{
-    font-family: 'Museo-Sans-700';
-    src: url('fonts/Webfont%20Kit/MuseoSans 700/museosans_700-webfont.eot'); /* IE9 Compat Modes */
-    /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
-    src: url('fonts/Webfont%20Kit/MuseoSans 700/museosans_700-webfont.eot?#iefix') format('embedded-opentype'), 
-        url('fonts/Webfont%20Kit/MuseoSans 700/museosans_700-webfont.woff') format('woff'), 
-        url('fonts/Webfont%20Kit/MuseoSans 700/museosans_700-webfont.ttf')  format('truetype'), 
-        url('fonts/Webfont%20Kit/MuseoSans 700/museosans_700-webfont.svg') format('svg'); /* Не нашол Legacy iOS */               
-    font-style:   normal;
-    font-weight:  normal;
+@font-face {
+    font-family: 'museo_sans_cyrl500';
+    src: url('fonts/Webfont%20Kit/Museo Sans Cyrl 500/museosanscyrl_1-webfont.eot');
+    src: url('fonts/Webfont%20Kit/Museo Sans Cyrl 500/museosanscyrl_1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Webfont%20Kit/Museo Sans Cyrl 500/museosanscyrl_1-webfont.woff2') format('woff2'),
+         url('fonts/Webfont%20Kit/Museo Sans Cyrl 500/museosanscyrl_1-webfont.woff') format('woff'),
+         url('fonts/Webfont%20Kit/Museo Sans Cyrl 500/museosanscyrl_1-webfont.ttf') format('truetype'),
+         url('fonts/Webfont%20Kit/Museo Sans Cyrl 500/museosanscyrl_1-webfont.svg#museo_sans_cyrl500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'museo_sans_cyrl700';
+    src: url('fonts/Webfont%20Kit/Museo Sans Cyrl 700/museosanscyrl_2-webfont.eot');
+    src: url('fonts/Webfont%20Kit/Museo Sans Cyrl 700/museosanscyrl_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Webfont%20Kit/Museo Sans Cyrl 700/museosanscyrl_2-webfont.woff2') format('woff2'),
+         url('fonts/Webfont%20Kit/Museo Sans Cyrl 700/museosanscyrl_2-webfont.woff') format('woff'),
+         url('fonts/Webfont%20Kit/Museo Sans Cyrl 700/museosanscyrl_2-webfont.ttf') format('truetype'),
+         url('fonts/Webfont%20Kit/Museo Sans Cyrl 700/museosanscyrl_2-webfont.svg#museo_sans_cyrl700') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Aleo';
+}
+
+h2,h3 {
+	font-family: 'Aleo_Blod';
+}
+
+p {
+	font-family: 'museo_sans_cyrl500';
+}
+				/*HEADER START*/
+.banner{
+	background: url(images/burgers.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 634px;
+
+}
+
+.logo{
+	height: 100%;
+	width: 35%;
+	margin: auto;
+	color: white;
+	font-family: 'Aleo_Light';
+	font-size: 40px;
+}
+
+#logo_boldText {
+	font-family: 'Aleo_Blod';
 }
