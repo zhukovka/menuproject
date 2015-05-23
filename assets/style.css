@@ -2,18 +2,68 @@
 body{
 	margin: 0;
 }
+@import url(http://fonts.googleapis.com/css?family=Lato:700);
 @font-face {
-    font-family: 'Aleo';
-    src: url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.eot'); /* IE9 Compat Modes */
-    /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
-    src: url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.eot?#iefix') format('embedded-opentype'), 
-        url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.woff') format('woff'), 
-        url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.ttf')  format('truetype'), 
-        url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.svg') format('svg'); /* Legacy iOS */               
-    font-style:   normal;
-    font-weight:  400;
-
+    font-family: 'aleolight';
+    src: url('fonts/Light/aleo-light-webfont.eot');
+    src: url('fonts/Light/aleo-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Light/aleo-light-webfont.woff') format('woff'),
+         url('fonts/Light/aleo-light-webfont.ttf') format('truetype'),
+         url('fonts/Light/aleo-light-webfont.svg#aleolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+@font-face {
+    font-family: 'aleoregular';
+    src: url('fonts/Regular/aleo-regular-webfont.eot');
+    src: url('fonts/Regular/aleo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Regular/aleo-regular-webfont.woff') format('woff'),
+         url('fonts/Regular/aleo-regular-webfont.ttf') format('truetype'),
+         url('fonts/Regular/aleo-regular-webfont.svg#aleoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aleobold';
+    src: url('fonts/Bold/aleo-bold-webfont.eot');
+    src: url('fonts/Bold/aleo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Bold/aleo-bold-webfont.woff') format('woff'),
+         url('fonts/Bold/aleo-bold-webfont.ttf') format('truetype'),
+         url('fonts/Bold/aleo-bold-webfont.svg#aleobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aleoregularitalic';
+    src: url('fonts/Regular%20Italic/aleo-italic-webfont.eot');
+    src: url('fonts/Regular%20Italic/aleo-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Regular%20Italic/aleo-italic-webfont.woff') format('woff'),
+         url('fonts/Regular%20Italic/aleo-italic-webfont.ttf') format('truetype'),
+         url('fonts/Regular%20Italic/aleo-italic-webfont.svg#aleoregularitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'museosans500';
+    src: url('fonts/MuseoSans/museo-sans-cyrl-500/museo-sans-500-webfont.eot');
+    src: url('fonts/MuseoSans/museo-sans-cyrl-500/museo-sans-500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/MuseoSans/museo-sans-cyrl-500/museo-sans-500-webfont.woff') format('woff'),
+         url('fonts/MuseoSans/museo-sans-cyrl-500/museo-sans-500-webfont.ttf') format('truetype'),
+         url('fonts/MuseoSans/museo-sans-cyrl-500/museo-sans-500-webfont.svg#museosans500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'museosans700';
+    src: url('fonts/MuseoSans/museo-sans-cyrl-700/museo-sans-700-webfont.eot');
+    src: url('fonts/MuseoSans/museo-sans-cyrl-700/museo-sans-700-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/MuseoSans/museo-sans-cyrl-700/museo-sans-700-webfont.woff') format('woff'),
+         url('fonts/MuseoSans/museo-sans-cyrl-700/museo-sans-700-webfont.ttf') format('truetype'),
+         url('fonts/MuseoSans/museo-sans-cyrl-700/museo-sans-700-webfont.svg#museosans700') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .banner{
 	background: url(images/burgers.jpeg);
 	background-size: cover;
@@ -26,7 +76,175 @@ body{
 	height: 100%;
 	width: 35%;
 	margin: auto;
-	font-family: 'Aleo';
+	font-family: 'aleolight';
 	font-size: 40px;
 	color: white;
+}	
+.boldtext{
+	height: 100%;
+	width: 35%;
+	margin: auto;
+	font-family: 'aleobold';
+	font-size: 40px;
+	color: white;
+}
+
+.hour{
+	font-family: 'aleoregular';
+	font-size: 25px;
+	color: black;
+}
+.party{
+	font-family: 'aleoregular';
+	font-size: 25px;
+	color: black;
+}
+.br{
+	font-family: 'aleoregularitalic';
+	font-size: 25px;
+	color: black;
+}
+.ln{
+	font-family: 'aleoregularitalic';
+	font-size: 25px;
+	color: black;
+}
+.dn{
+	font-family: 'aleoregularitalic';
+	font-size: 25px;
+	color: black;
+}
+
+h1 { 
+    display: block;
+    font-size: 25px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'aleobold';
+}
+h2 { 
+    display: block;
+    font-size: 20px;
+    font-family: 'aleobold';
+}
+h3 { 
+    display: block;
+    font-size: 13px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'museosans500';
+}
+.view{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+.view2{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+/* tabs */
+.tab1{
+		display: block;
+    font-size: 17px;
+	font-family: 'aleobold';
+}
+.tab1-1{
+    display: block;
+    font-size: 13px;
+    font-family: 'museosans700';
+}
+.tab1-2{
+ display: block;
+    font-size: 13px;
+    font-family: 'museosans700';
+}
+.tab1-3{
+ display: block;
+    font-size: 13px;
+    font-family: 'museosans700';
+}
+.tab2{
+		display: block;
+    font-size: 17px;
+	font-family: 'aleobold';
+}
+.tab2-1{
+ display: block;
+    font-size: 13px;
+    font-family: 'museosans700';
+}
+.tab2-2{
+ display: block;
+    font-size: 13px;
+    font-family: 'museosans700';
+}
+.tab2-3{
+ display: block;
+    font-size: 13px;
+    font-family: 'museosans700';
+}
+.tab3{
+		display: block;
+    font-size: 17px;
+	font-family: 'aleobold';
+}
+.tab3-1{
+ display: block;
+    font-size: 13px;
+    font-family: 'museosans700';
+}
+.tab3-2{
+ display: block;
+    font-size: 13px;
+    font-family: 'museosans700';
+}
+.tab3-3{
+ display: block;
+    font-size: 13px;
+    font-family: 'museosans700';
+}
+.tab4{
+		display: block;
+    font-size: 17px;
+	font-family: 'aleobold';
+}
+.tab4-1{
+ display: block;
+    font-size: 13px;
+    font-family: 'museosans700';
+}
+.tab4-2{
+ display: block;
+    font-size: 13px;
+    font-family: 'museosans700';
+}
+.tab4-3{
+ display: block;
+    font-size: 13px;
+    font-family: 'museosans700';
+}
+}
+.delivery{
+	display: block;
+    font-size: 13px;
+	font-family: 'aleobold';
+} 
+.sub{
+	display: block;
+    font-size: 13px;
+	font-family: 'museosans500';
+} 
+.z{ 
+    display: block;
+    font-size: 13px;
+    font-family: 'aleoregular';
+}
+.z1{ 
+    display: block;
+    font-size: 13px;
+    font-family: 'museosans500';
 }
