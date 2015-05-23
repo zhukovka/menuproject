@@ -74,7 +74,7 @@ body{
         url('fonts/MuseoSans/museosans_500-webfont.ttf') format('truetype'), 
         url('fonts/MuseoSans/museo-sans-500-webfont.svg') format('svg'); /* Legacy iOS */               
     font-style:   normal;
-    font-weight:  20;
+    font-weight:  400;
 }
 
 
