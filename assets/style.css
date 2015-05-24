@@ -135,6 +135,36 @@ a.heading{
 
 p {
 }
+
+.table-view{
+    display: table;
+    width: 100%;
+}
+
+*[class *= 'table-cell-view']{
+    display: table-cell;
+}
+
+.table-cell-view-25{
+    width: 25%;
+}
+.table-cell-view-100{
+    width: 100%;
+}
+.offers{
+    height: 210px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.offers > .table-cell-view-25{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.offers a.heading{
+    line-height: 105px;
+}
                 /*HEADER START*/
 .banner{
     background: url(images/burgers.jpeg);
@@ -152,3 +182,19 @@ p {
 }
 
 
+/*-----------------------------*/
+.mainBlock{
+    /*float: left;*/
+    /*width: 30%;*/
+    background-color: yellow;
+}
+
+header{
+    position: relative;
+    height: 100vh;
+}
+
+nav.navigation{
+    position: absolute;
+    top: 0;
+}
