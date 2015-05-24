@@ -140,17 +140,30 @@ p {
     display: table;
     width: 100%;
 }
-.table-cell-view{
+
+*[class *= 'table-cell-view']{
     display: table-cell;
 }
 
+.table-cell-view-25{
+    width: 25%;
+}
+.table-cell-view-100{
+    width: 100%;
+}
 .offers{
     height: 210px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
-.offers > .table-cell-view{
+.offers > .table-cell-view-25{
     vertical-align: middle;
-    width: 25%;
     text-align: center;
+}
+
+.offers a.heading{
+    line-height: 105px;
 }
                 /*HEADER START*/
 .banner{
@@ -171,22 +184,17 @@ p {
 
 /*-----------------------------*/
 .mainBlock{
-    float: left;
-    width: 30%;
+    /*float: left;*/
+    /*width: 30%;*/
     background-color: yellow;
 }
 
 header{
     position: relative;
+    height: 100vh;
 }
 
-nav{
+nav.navigation{
     position: absolute;
     top: 0;
-}
-
-.offers{
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
