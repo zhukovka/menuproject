@@ -169,3 +169,24 @@ p {
 }
 
 
+/*-----------------------------*/
+.mainBlock{
+    float: left;
+    width: 30%;
+    background-color: yellow;
+}
+
+header{
+    position: relative;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+}
+
+.offers{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
