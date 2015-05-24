@@ -135,6 +135,23 @@ a.heading{
 
 p {
 }
+
+.table-view{
+    display: table;
+    width: 100%;
+}
+.table-cell-view{
+    display: table-cell;
+}
+
+.offers{
+    height: 210px;
+}
+.offers > .table-cell-view{
+    vertical-align: middle;
+    width: 25%;
+    text-align: center;
+}
                 /*HEADER START*/
 .banner{
     background: url(images/burgers.jpeg);
