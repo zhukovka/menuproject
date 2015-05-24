@@ -49,3 +49,16 @@ p {
 }
 
 
+nav {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: blue;
+
+}
+
+.offers {
+    position: absolute;
+    bottom: 0;
+}
+
