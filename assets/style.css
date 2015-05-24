@@ -12,7 +12,7 @@
 }
 
 @font-face {
-    font-family: 'Aleo_Blod';
+    font-family: 'Aleo_Bold';
     src: url('fonts/Webfont%20Kit/Bold/aleo-bold-webfont.eot'); /* IE9 Compat Modes */
     /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
     src: url('fonts/Webfont%20Kit/Bold/aleo-bold-webfont.eot?#iefix') format('embedded-opentype'), 
@@ -107,35 +107,65 @@ body{
     font-size: 100%;
 }
 
-h1 {
-	font-family: 'Aleo';
+header {
+    position: relative;
 }
 
-h2,h3 {
-	font-family: 'Aleo_Blod';
+.heading{
+    font-family: 'Aleo_Bold';
+}
+
+.heading-italic_text{
+    font-family: 'Aleo_Regular_Italic';
+}
+
+h1.heading{
+    font-size: 250%;
+}
+
+h2.heading{
+    font-size: 125%;
+}
+
+a.heading{
+    font-size: 187%;
+}
+
+
+
+.heading-light_text{
+
+	font-family: 'Aleo_Light';
 }
 
 p {
-	font-family: 'museo_sans_cyrl500';
 }
-				/*HEADER START*/
+                /*HEADER START*/
 .banner{
-	background: url(images/burgers.jpeg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 634px;
+    background: url(images/burgers.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 634px;
 
 }
 
 .logo{
-	height: 100%;
-	width: 35%;
-	margin: auto;
-	color: white;
-	font-family: 'Aleo_Light';
-	font-size: 40px;
+    height: 100%;
+    width: 35%;
+    margin: auto;
+    color: white;
 }
 
-#logo_boldText {
-	font-family: 'Aleo_Blod';
+nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: red;
 }
+
+.offers {
+    background: red;
+    position: absolute;
+    bottom: 0;
+}
+
