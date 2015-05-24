@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+=======
+@font-face {
+    font-family: 'Aleo';
+    src: url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.eot'); /* IE9 Compat Modes */
+    /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
+    src: url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.woff') format('woff'), 
+        url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.ttf')  format('truetype'), 
+        url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.svg') format('svg'); /* Legacy iOS */               
+    font-style:   normal;
+    font-weight:  400;
+
+}
+>>>>>>> 2fa6c8b306c2372f323c9765125c8c4739f40da7
 
 @font-face {
     font-family: 'Aleo_Bold';
@@ -91,22 +106,31 @@
 
 body{
 	margin: 0;
-    font-family: "museo_sans_cyrl500";
+    font-family: 'museo_sans_cyrl500';
     font-size: 100%;
 }
-
-h1 {
-	font-family: 'Aleo';
+.heading{
+    font-family: 'Aleo_Bold';
 }
 
-h2,h3 {
-	font-family: 'Aleo_Blod';
+
+.table-view{
+    display: table;
+    width: 100%;
+}
+.table-cell-view{
+    display: table-cell;
 }
 
-p {
-	
+.offers{
+    height: 210px;
 }
-				/*HEADER START*/
+.offers > .table-cell-view{
+    vertical-align: middle;
+    width: 25%;
+    text-align: center;
+}
+                /*HEADER START*/
 .banner{
     background: url(images/burgers.jpeg);
     background-size: cover;
@@ -119,29 +143,24 @@ p {
     height: 100%;
     width: 35%;
     margin: auto;
-    font-family: 'Aleo Light';
-    font-size: 40px;
-    color: white;
-    text-align: center;
+
+/*-----------------------------*/
+.mainBlock{
+    float: left;
+    width: 30%;
+    background-color: yellow;
 }
 
-#logo_boldText {
-	font-family: 'Aleo_Bold';
+header{
+    position: relative;
 }
 
-.heading{
-
+nav{
+    position: absolute;
+    top: 0;
 }
 
-h1.heading{
-    font-size: 250%; /* добавить в html */
-}
-
-h2.heading{
-    font-size: 125%; /* добавить в html */
-}
-
-
-a.heading{
-    font-size: 130%; /* добавить в html  <a class="heading"*/
-}
+.offers{
+    position: absolute;
+    bottom: 0;
+    left: 0;
