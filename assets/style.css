@@ -1,7 +1,3 @@
-body{
-	margin: 0;
-}
-
 @font-face {
     font-family: 'Aleo';
     src: url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.eot'); /* IE9 Compat Modes */
@@ -16,7 +12,7 @@ body{
 }
 
 @font-face {
-    font-family: 'Aleo_Blod';
+    font-family: 'Aleo_Bold';
     src: url('fonts/Webfont%20Kit/Bold/aleo-bold-webfont.eot'); /* IE9 Compat Modes */
     /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
     src: url('fonts/Webfont%20Kit/Bold/aleo-bold-webfont.eot?#iefix') format('embedded-opentype'), 
@@ -107,37 +103,98 @@ body{
 
 body{
 	margin: 0;
+    font-family: 'museo_sans_cyrl500';
+    font-size: 100%;
+}
+.heading{
+    font-family: 'Aleo_Bold';
 }
 
-h1 {
-	font-family: 'Aleo';
+.heading-italic_text{
+    font-family: 'Aleo_Regular_Italic';
 }
 
-h2,h3 {
-	font-family: 'Aleo_Blod';
+h1.heading{
+    font-size: 250%;
+}
+
+h2.heading{
+    font-size: 125%;
+}
+
+a.heading{
+    font-size: 187%;
+}
+
+
+
+.heading-light_text{
+
+	font-family: 'Aleo_Light';
 }
 
 p {
-	font-family: 'museo_sans_cyrl500';
 }
-				/*HEADER START*/
+
+.table-view{
+    display: table;
+    width: 100%;
+}
+
+*[class *= 'table-cell-view']{
+    display: table-cell;
+}
+
+.table-cell-view-25{
+    width: 25%;
+}
+.table-cell-view-100{
+    width: 100%;
+}
+.offers{
+    height: 210px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.offers > .table-cell-view-25{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.offers a.heading{
+    line-height: 105px;
+}
+                /*HEADER START*/
 .banner{
-	background: url(images/burgers.jpeg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 634px;
+    background: url(images/burgers.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 634px;
 
 }
 
 .logo{
-	height: 100%;
-	width: 35%;
-	margin: auto;
-	color: white;
-	font-family: 'Aleo_Light';
-	font-size: 40px;
+    height: 100%;
+    width: 35%;
+    margin: auto;
+    color: white;
 }
 
-#logo_boldText {
-	font-family: 'Aleo_Blod';
+
+/*-----------------------------*/
+.mainBlock{
+    /*float: left;*/
+    /*width: 30%;*/
+    background-color: yellow;
+}
+
+header{
+    position: relative;
+    height: 100vh;
+}
+
+nav.navigation{
+    position: absolute;
+    top: 0;
 }
