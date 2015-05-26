@@ -24,7 +24,7 @@
 		<nav>
 			<a class="navigation" href="#menu"> &#9776;</a> 
 				<ul class="navigation_dropdown"> 
-  					<li><a href="#Fast_Food">Fast Food</a></li>
+  					<li class="move_for_food"><a href="#Fast_Food">Fast Food</a></li>
   					<li><a href="#Drink">Drinks</a></li>
  				    <li><a href="#Chicken">Chicken</a></li>
  				    <li><a href="#Rise">Rise</a></li>
@@ -38,6 +38,7 @@
 					<span class="heading-light_text">We provide the best Food<br> At the</span> Right Price
 				</h1>
 			</div>
+		
 			<div class="offers table-view">
 				<div class="table-cell-view-100">
 					<div>
@@ -47,7 +48,6 @@
 						<a href="" class="heading heading-white_text">Party time</a>
 					</div>
 				</div>
-				<img src="assets/images/breackfast.jpg" alt="">
 				<div class="table-cell-view-25">
 					<div class="otherBlock_1"><a href="" class="heading heading-italic_text">Breakfast</a>
 					</div>
@@ -129,7 +129,7 @@
 
 
 <script type="text/javascript">
-// Выпадающие меню ()
+// Выпадающие меню ( http://scottbolinger.com/simple-jquery-drop-down-menu-in-wordpress/)
 
 $(function() {
   
@@ -150,7 +150,7 @@ $(document).click(function(e) {
  // Плавный скроллинг без типизации тегов (http://jsfiddle.net/d90vcqed/)
  // Сделать if на все id.
 $(document).ready(function() {
-    $('.navigation_dropdown').click(function(){
+    $('.move_for_food').click(function(){
       $('html, body').animate({scrollTop:$('#Fast_Food').position().top - 60}, 2000);
     });
 });
