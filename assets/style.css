@@ -1,6 +1,13 @@
 body{
-	margin: 0;
+    width: 70%;
+    margin: 0 auto;
     font-family: 'museo_sans_cyrl500';
+}
+
+section{
+    width: 80%;
+    margin: 0 auto;
+    border: solid;
 }
 
 .heading{
@@ -13,7 +20,7 @@ body{
 }
 
 h1.heading{
-    padding-top: 4em;  /*как опустить текст если не display: not-table*/
+    padding-top: 2em;  /*как опустить текст если не display: not-table*/
     font-size: 250%;
 }
 
@@ -72,7 +79,7 @@ a.heading{
     background: url(images/burgers.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
+    overflow: visible;
     height: 634px;
 
 }
