@@ -4,6 +4,7 @@ body{
 }
 
 .heading{
+     color: black;
     font-family: 'Aleo_Bold';
 }
 
@@ -22,14 +23,14 @@ h2.heading{
 
 a.heading{
     font-size: 187%;
+    text-decoration: none;
+    color: white;
 }
 .heading-light_text{
-  
-	font-family: 'Aleo_Light';
+  	font-family: 'Aleo_Light';
 }
 
 .table-view{
-
     display: table;
     width: 100%;
 }
@@ -42,14 +43,16 @@ a.heading{
     background: black;
     width: 25%;
 }
-.table-cell-view-100{
+.offers > .table-cell-view-100{
+    color: black;
     vertical-align: middle;
     text-align: center;
-    background: red;
+    background: white;
     width: 25%;
 }
 
 .offers{
+    color: black;
     position: absolute;
     bottom: 0;
     
@@ -65,10 +68,11 @@ a.heading{
 }
                 
 
-.banner{
+#banner{
     background: url(images/burgers.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
+    overflow: hidden;
     height: 634px;
 
 }
@@ -95,12 +99,41 @@ header{
 }
 
 .opacity-banner{
+    background-color: rgba(255, 0, 0, 0.4);
+     height: 634px;
+ }
 
+#happy_cell{ 
+    color: black;   /*грубая реализация, есть другие варианты?*/
+}
+.semi-cell{
+    background: red;
 }
 
+.otherBlock_1 {
+    background: url(images/breackfast.jpg);
+    background-size: cover;
+    height: 210px; /*поднимает текст(Делает не по центру-вертикаль)*/
+}
 
+.otherBlock_2 {
+    background: url(images/breackfast.jpg);
+    background-size: cover;
+    height: 210px; /*поднимает текст(Делает не по центру-вертикаль)*/
+}
+.otherBlock_3 {
+    background: url(images/breackfast.jpg);
+    background-size: cover;
+    height: 210px; /*поднимает текст(Делает не по центру-вертикаль)*/
+}
+.opacity-block{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%; 
+   
 
-            /*Nav-bar*/
+ }
+
+     /*Nav-bar*/
 
 nav {
    position: absolute;
