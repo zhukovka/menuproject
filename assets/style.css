@@ -1,5 +1,6 @@
 body{
-	margin: 0;
+    width: 70%;
+	margin: 0 auto;
     font-family: 'museo_sans_cyrl500';
     font-size: 100%;
 }
@@ -22,6 +23,7 @@ h2.heading{
 
 a.heading{
     font-size: 187%;
+    color: white;
 }
 
 
@@ -55,6 +57,7 @@ p {
     bottom: 0;
     left: 0;
 }
+
 .offers > .table-cell-view-25{
     vertical-align: middle;
     text-align: center;
@@ -82,10 +85,39 @@ p {
 
 /*-----------------------------*/
 .mainBlock{
-    /*float: left;*/
-    /*width: 30%;*/
-    background-color: yellow;
+    width: 80%;
+    /*background-color: yellow;*/
+    margin: 0 auto;
 }
+
+
+#fast-food{
+    overflow: hidden;
+}
+#drinks{
+    overflow: hidden;
+}
+
+.fastfoodImg{
+    width: 50%;
+    float: left;
+}
+.fastfoodTxt{
+    width: 50%;
+    float: right;
+}
+.drinksImg{
+    width: 50%;
+    float: right;
+}
+.drinksTxt{
+    width: 50%;
+    float: left;
+}
+
+
+
+/*======================*/
 
 header{
     position: relative;
@@ -98,30 +130,44 @@ nav.navigation{
     color: white;
 }
 
-/*не получается поставить цвет шрифта*/
+/*=======================*/
+
 .happyHour{
     background-color: #e4e5e7;
-    color: black;
-}
+ }
 
 .partyTime{
     background-color: #f15a29;
-    color: white; 
-} 
+ } 
 
-/*не могу выставить по центру Breakfast, Lunch, Dinner*/
+
 .otherBlockBreakfast{
     background: url(images/breakfast.jpg);
     background-size: cover;
     height: 210px;
 }
+
 .otherBlockLunch{
     background: url(images/lunch.jpg);
     background-size: cover;
     height: 210px;
 }
+
 .otherBlockDinner{
     background: url(images/dinner.jpg);
     background-size: cover;
     height: 210px;
 }
+
+
+/*Обратился к happyHour и сделал его чорным цветом*/
+
+/*body > header > div > div.offers.table-view > div:nth-child(1) > div.happyHour > a*/
+
+
+
+.offers.table-view div:first-child .happyHour a {
+    /*display: none;*/
+    color: black;
+}
+
