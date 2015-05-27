@@ -98,16 +98,18 @@ nav.navigation{
     color: white;
 }
 
+/*не получается поставить цвет шрифта*/
 .happyHour{
     background-color: #e4e5e7;
-    color: red;
+    color: black;
 }
 
 .partyTime{
     background-color: #f15a29;
-    color: blue;
-}
+    color: white; 
+} 
 
+/*не могу выставить по центру Breakfast, Lunch, Dinner*/
 .otherBlockBreakfast{
     background: url(images/breakfast.jpg);
     background-size: cover;
