@@ -13,6 +13,7 @@ body{
 
 h1.heading{
     font-size: 250%;
+    
 }
 
 h2.heading{
@@ -94,4 +95,15 @@ header{
 nav.navigation{
     position: absolute;
     top: 0;
+    color: white;
+}
+
+.happyHour{
+    background-color: #e4e5e7;
+    color: red;
+}
+
+.partyTime{
+    background-color: #f15a29;
+    color: blue;
 }
