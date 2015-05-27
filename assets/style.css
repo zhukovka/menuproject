@@ -107,3 +107,19 @@ nav.navigation{
     background-color: #f15a29;
     color: blue;
 }
+
+.otherBlockBreakfast{
+    background: url(images/breakfast.jpg);
+    background-size: cover;
+    height: 210px;
+}
+.otherBlockLunch{
+    background: url(images/lunch.jpg);
+    background-size: cover;
+    height: 210px;
+}
+.otherBlockDinner{
+    background: url(images/dinner.jpg);
+    background-size: cover;
+    height: 210px;
+}
