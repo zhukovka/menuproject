@@ -132,6 +132,21 @@ nav.navigation{
 
 /*=======================*/
 
+
+
+/*=======otherblock==опти======*/
+
+*[class *= 'otherBlock']{
+    display: otherBlock;
+    background-size: cover;
+    height: 210px;
+    background-color: #000; /*Чёрный фон*/
+    opacity: 1; /*Степень прозрачности*/
+}
+
+/*===========================*/
+
+
 .happyHour{
     background-color: #e4e5e7;
  }
@@ -141,24 +156,48 @@ nav.navigation{
  } 
 
 
-.otherBlockBreakfast{
+.otherBlock-Breakfast{
+    background: url(images/breakfast.jpg);
+/*    background-size: cover;
+    height: 210px;
+    background-color: #000;
+    opacity: 1;*/
+}
+
+.otherBlock-Lunch{
+    background: url(images/lunch.jpg);
+/*    background-size: cover;
+    height: 210px;
+    background-color: #000; 
+    opacity: 1; */
+}
+
+.otherBlock-Dinner{
+    background: url(images/dinner.jpg);
+/*    background-size: cover;
+    height: 210px;
+    background-color: #000; 
+    opacity: 1;   */
+}
+
+/*============Осветление otherBlock=============*/
+
+.otherBlock-Breakfast:hover{
     background: url(images/breakfast.jpg);
     background-size: cover;
-    height: 210px;
+    opacity: 0.50;
 }
 
-.otherBlockLunch{
+.otherBlock-Lunch:hover{
     background: url(images/lunch.jpg);
     background-size: cover;
-    height: 210px;
+    opacity: 0.50;
 }
-
-.otherBlockDinner{
+.otherBlock-Dinner:hover{
     background: url(images/dinner.jpg);
     background-size: cover;
-    height: 210px;
+    opacity: 0.50;
 }
-
 
 /*Обратился к happyHour и сделал его чорным цветом*/
 
