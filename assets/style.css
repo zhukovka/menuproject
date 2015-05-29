@@ -105,6 +105,8 @@ body{
     margin: 0;
     font-family: 'museo_sans_cyrl500';
     font-size: 100%;
+    width: 70%; 
+    margin: 0 auto;
 }
 .heading{
     font-family: 'Aleo_Regular';
@@ -116,6 +118,7 @@ body{
 
 h1.heading{
     font-size: 250%;
+
 }
 
 h2.heading{
@@ -129,10 +132,11 @@ a.heading{
 }
 
 
-
 .heading-light_text{
 
     font-family: 'Aleo_Light';
+ 
+    
 }
 
 p {
@@ -144,16 +148,13 @@ p {
     background-color:#e4e5e7;
     vertical-align: middle;
     text-align: center;
+    
 }
 .picture-breakfast{
     background: url(images/breakfast.jpg);
     background-size: cover;
-    position:relative;
-    z-index:0;
-    top:0;
-    left:0;
-    width:100%;
     height:100%;
+
 }
 .picture-lunch{
      background: url(images/lunch.jpg);
@@ -163,7 +164,7 @@ p {
      top:0;
      left:0;
      width:100%;
-     height:100%;
+     height: 160px;
 }
 .picture-dinner{
      background: url(images/dinner.jpg);
@@ -173,7 +174,8 @@ p {
      top:0;
      left:0;
      width:100%;
-     height:100%;
+    height: 160px;
+     
 
 }
 *[class *= 'table-cell-view']{
@@ -190,10 +192,11 @@ p {
 
 }
 .offers{
-    height: 210px;
+    height: 160px;
     position: absolute;
     bottom: 0;
     left: 0;
+    
 
 }
 .orange{
@@ -205,8 +208,9 @@ p {
 }
 
 .offers a.heading{
-    line-height: 105px;
+    line-height: 80px;
     text-decoration: none;
+    
 
 }
                 /*HEADER START*/
@@ -215,6 +219,7 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     height: 634px;
+    
 
 }
 
@@ -223,6 +228,7 @@ p {
     width: 35%;
     margin: auto;
     color: white;
+    vertical-align: middle;
 }
 
 
@@ -241,4 +247,25 @@ header{
 nav.navigation{
     position: absolute;
     top: 0;
+}
+/*--------article---------------------*/
+section{
+    width: 80%;
+    position: static;
+    margin: auto;
+}
+#fast-food{
+    width: 100%;
+}
+.fast-food_picture{
+    float:left;
+    
+    margin-right: 20px; /* Отступ справа */
+    width: 50%; 
+}
+.dinner_picture{
+    float:right;
+
+    margin-left: 20px; /* Отступ справа */
+    width: 5s0%; 
 }
