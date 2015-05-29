@@ -7,9 +7,12 @@ body{
 section{
     width: 80%;
     margin: 0 auto;
-    border: solid;
 }
 
+article {
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
 .heading{
      color: black;
     font-family: 'Aleo_Bold';
@@ -20,7 +23,7 @@ section{
 }
 
 h1.heading{
-    padding-top: 2em;  /*как опустить текст если не display: not-table*/
+    /*как опустить текст если не display: not-table*/
     font-size: 250%;
 }
 
@@ -34,7 +37,7 @@ a.heading{
     color: white;
 }
 .heading-light_text{
-  	font-family: 'Aleo_Light';
+    font-family: 'Aleo_Light';
 }
 
 .table-view{
@@ -54,7 +57,7 @@ a.heading{
     color: black;
     vertical-align: middle;
     text-align: center;
-    background: white;
+    background: #e4e5e7;
     width: 25%;
 }
 
@@ -79,12 +82,13 @@ a.heading{
     background: url(images/burgers.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: visible;
+    overflow: hidden;
     height: 634px;
 
 }
 
 .logo{
+    padding-top: 4em;
     text-align: center;
     height: 100%;
     width: 35%;
@@ -116,6 +120,17 @@ header{
 .semi-cell{
     background: red;
 }
+.ff_image{
+    padding-right: 2em;
+    padding-bottom: 2em;
+    float: left;
+    /*overflow: hidden;*/
+    
+}
+.ff_image2{
+    float: right;
+    padding-left: 2em;
+}
 
 .otherBlock_1 {
     background: url(images/breackfast.jpg);
@@ -136,9 +151,17 @@ header{
 .opacity-block{
     background-color: rgba(0, 0, 0, 0.4);
     height: 100%; 
-   
+}
 
- }
+
+.article_board {  /* h1.heading */
+    float: right;
+}
+
+.article_board_text {
+    float: right;
+
+}
 
      /*Nav-bar*/
 
