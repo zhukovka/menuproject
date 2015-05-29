@@ -25,7 +25,7 @@
 }
 
 @font-face {
-    font-family: 'Aleo_BlodItalic';
+    font-family: 'Aleo_BoldItalic';
     src: url('fonts/Webfont%20Kit/Bold Italic/aleo-bolditalic-webfont.eot'); /* IE9 Compat Modes */
     /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
     src: url('fonts/Webfont%20Kit/Bold Italic/aleo-bolditalic-webfont.eot?#iefix') format('embedded-opentype'), 
@@ -73,6 +73,19 @@
         url('fonts/Webfont%20Kit/Regular Italic/aleo-italic-webfont.svg') format('svg'); /* Legacy iOS */               
     font-style:   normal;
     font-weight:  400;
+
+}
+
+@font-face {
+    font-family: 'museo_sans_cyrl300';
+    src: url('fonts/Webfont%20Kit/Museo Sans Cyrl 300/museosanscyrl_0-webfont.eot');
+    src: url('fonts/Webfont%20Kit/Museo Sans Cyrl 300/museosanscyrl_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Webfont%20Kit/Museo Sans Cyrl 300/museosanscyrl_0-webfont.woff2') format('woff2'),
+         url('fonts/Webfont%20Kit/Museo Sans Cyrl 300/museosanscyrl_0-webfont.woff') format('woff'),
+         url('fonts/Webfont%20Kit/Museo Sans Cyrl 300/museosanscyrl_0-webfont.ttf') format('truetype'),
+         url('fonts/Webfont%20Kit/Museo Sans Cyrl 300/museosanscyrl_0-webfont.svg#museo_sans_cyrl300') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
 }
 
@@ -134,6 +147,7 @@ a.heading{
 }
 
 p {
+   font-family: 'museo_sans_cyrl500'; 
 }
 
 .table-view{
@@ -162,9 +176,113 @@ p {
     text-align: center;
 }
 
+
+/*блок для возращение на вверх страницы*/
+.move_to_up {
+    width: 51px;
+    height: 51px;
+    background-color: #f15a29;
+    float: left; 
+    position: fixed;
+    left: 95%;
+    top: 80%;
+        -wekit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -o-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.move_to_up > a {
+    width: 51px;
+    height: 51px;
+    display: block;
+}
+
+/*--*/
+
+/*Header Navigation*/
+nav.navigation{
+    position: absolute;
+    top: 85px;
+    left: 7%;
+}
+
+.navigation > ul {
+    list-style: none;
+    display: none;
+}
+
+
+.main-item:focus ~ ul, .main-item:active ~ ul, .navigation > ul:hover {
+    display: block;
+}
+
+.navigation li > a{
+    font-size: 100%;
+    text-decoration: none;
+    color: #fff;
+    margin-left: -40px;
+}
+
+.navigation li > a:hover {
+    color: #f15a29;
+
+}
+
+/*------------------------*/
+
+/*color reference and font for offers*/
 .offers a.heading{
     line-height: 105px;
+    color: white;
+    text-decoration: none;
+    font-size: 180%;
+    font-family: 'Aleo_Regular_Italic';
 }
+
+
+.table_cell_first:first-child > a {
+    color: #000;
+    font-family: 'Aleo';
+}
+
+.table_cell_first:last-child > a {
+    font-family: 'Aleo';
+}
+/*-----------------------------*/
+
+/*заполнение цветами и картинками таблицы*/
+.table_cell_first:first-child {
+    background-color: #e4e5e7;
+}
+
+.table_cell_first:last-child {
+    background-color: #f15a29;
+}
+
+.table-cell-view-25:nth-child(2) {
+    background-image: url(images/breakfast.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.table-cell-view-25:nth-child(3) {
+    background-image: url(images/lunch.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.table-cell-view-25:last-child {
+    background-image: url(images/dinner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*-------------------------*/
+
+
+
+
                 /*HEADER START*/
 .banner{
     background: url(images/burgers.jpeg);
@@ -181,8 +299,15 @@ p {
     color: white;
 }
 
+.banner > .header_logo_image {
+    margin: 125px 40% 50px;
+}
 
-/*-----------------------------*/
+.banner > h1.heading {
+    text-align: center;
+} 
+
+
 .mainBlock{
     /*float: left;*/
     /*width: 30%;*/
@@ -194,7 +319,348 @@ header{
     height: 100vh;
 }
 
-nav.navigation{
-    position: absolute;
-    top: 0;
+
+                /*END HEADER*/
+
+
+/*START SECTION ONE*/
+
+section {
+    padding: 0 12%;
 }
+
+article#fast-food, article#drinks {
+    margin-top: 100px;
+}
+
+/*блок с картинкой*/
+.section_image_block {
+    width: 38%;
+    padding: 3%;
+    display: inline-block;
+        -moz-box-shadow: 1px 1px 2px rgba(0,0,0, 0.1), -1px -1px 2px rgba(0,0,0, 0.1) ;
+        -webkit-box-shadow: 1px 1px 2px rgba(0,0,0, 0.1), -1px -1px 2px rgba(0,0,0, 0.1) ;
+        -o-box-shadow: 1px 1px 2px rgba(0,0,0, 0.1), -1px -1px 2px rgba(0,0,0, 0.1) ;
+    box-shadow: 1px 1px 2px rgba(0,0,0, 0.1), -1px -1px 2px rgba(0,0,0, 0.1) ;
+    vertical-align: top;
+}
+
+.section_image_block > img {
+    width: 100%;
+}
+/*------------------------*/
+/*блок с текстом*/
+.section_content_block {
+    width: 41%;
+    display: inline-block;
+    vertical-align: top;
+    color: #505050;
+    margin-left: 6%;
+}
+
+.section_content_block >h2 {
+    margin: 30px 0;
+}
+
+.section_content_block >h1 {
+    margin: 35px 0 0;
+}
+
+/*button*/
+.section_content_block > button {
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #f15a29;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -o-border-radius: 3px;
+    border-radius: 3px;
+    outline: none;
+    color: #f15a29;
+    text-transform: uppercase;
+    font-family: 'museo_sans_cyrl700';
+}
+
+.section_content_block > button:active {
+    background-color: #f15a29;
+    color: #fff;
+}
+
+/*----------------------*/
+
+/*END SECTION ONE*/
+
+/*START VIEW FOOD*/
+
+.view_food {
+    height: 400px;
+    background-image: url(images/bg_food.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    padding: 100px 12%;
+}
+
+.view_food li {
+    list-style: none;
+}
+
+.view_food li a {
+    font-family: 'Aleo_Bold';
+    font-size: 125%;
+    text-decoration: none;
+    color: #f15a29;
+    text-align: center;
+    line-height: 60px;
+}
+
+.tabs {
+    background-color: #fff;
+    height: 400px;
+
+}
+
+.first_tabs {
+    width: 25%;
+    height: 65px;
+    display: inline-block;
+}
+
+.view_food  figure {
+    margin: 40px 1.8% 1.8%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.view_food  figure > figcaption {
+    font-family: 'museo_sans_cyrl700';
+    margin: 20px 0 0;
+    color: #f15a29;
+    text-align: center;
+}
+
+.view_food .arrow_left, .view_food .arrow_right {
+    margin: 138px 0 173px;
+}
+
+
+
+
+
+
+
+
+/*END VIEW FOOD*/
+
+/*START SECTION TWO*/
+#company {
+    height: 240px;
+    margin: 100px 0;
+       -moz-box-shadow: 1px 1px 2px rgba(0,0,0, 0.1), -1px -1px 2px rgba(0,0,0, 0.1) ;
+       -webkit-box-shadow: 1px 1px 2px rgba(0,0,0, 0.1), -1px -1px 2px rgba(0,0,0, 0.1) ;
+       -o-box-shadow: 1px 1px 2px rgba(0,0,0, 0.1), -1px -1px 2px rgba(0,0,0, 0.1) ;
+   box-shadow: 1px 1px 2px rgba(0,0,0, 0.1), -1px -1px 2px rgba(0,0,0, 0.1) ; 
+}
+
+
+#company > .our_customers {
+    width: 48%;
+    display: inline-block;
+    padding: 2% 5% 2% 4%;
+    vertical-align: top;
+}
+
+#company  p {
+    text-align: center;
+}
+
+#company > .about {
+    width: 37%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 2% 5% 2% 0%;
+}
+
+#company h2 {
+    font-family: 'Aleo_Bold';
+    font-size: 125%;
+    color: #f15a29;
+    margin: 0;
+    text-align: center;
+}
+
+#company h3 {
+    font-family: 'Aleo_Bold';
+    font-size: 100%;
+    text-align: center;
+}
+
+
+.our_customers > .persons_slider {
+    margin-left: 22%;
+}
+
+.our_customers > .persons_slider > a {
+    margin-bottom: 15px;
+}
+
+.our_customers > .persons_slider > a.arrow_left {
+    margin-right: 17px;
+}
+
+.our_customers > .persons_slider > a.arrow_right {
+    margin-left: 17px;
+}
+
+
+/*Arrow Sprite for all page*/
+a.arrow_left {
+    width: 11px;
+    height: 19px;
+    background-image: url(images/arrow_sprite.png);
+    background-position: -11px 0;
+    display: inline-block;
+}
+
+a.arrow_right {
+    width: 11px;
+    height: 19px;
+    background-image: url(images/arrow_sprite.png);
+    display: inline-block;
+}
+/*------------------------------*/
+
+/*portrait sprite*/
+
+.our_customers  i.team_portrait {
+    width: 47px;
+    height: 58px;
+    background-image: url(images/people_sprite.png);
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.our_customers i.team_portrait_two {
+    width: 58px;
+    height: 58px;
+    background-image: url(images/people_sprite.png);
+    background-position: -47px 0;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.our_customers i.team_portrait_three {
+    width: 47px;
+    height: 58px;
+    background-image: url(images/people_sprite.png);
+    background-position: -105px 0;
+    display: inline-block;
+}
+/*--*/
+
+/*START CONTACTS*/
+#contacts {
+    height: 200px;
+    background-image: url(images/bg_contacts.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: -webkit-linear-gradient(left, rgb(0,0,0, 0.8) 0%, rgb(0,0,0, 0.8) 100%);
+    color: #fff;
+    padding-top: 100px;
+    padding-left: 28%;
+    padding-right: 23%;
+}
+
+#contacts > h2 {
+   font-family: 'Aleo_Bold';
+   font-size: 182%; 
+   margin: 0 0 25px;
+}
+
+#contacts input {
+    width: 60%;
+    height: 50px;
+/*    opacity: 0.3;*/
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -o-border-radius: 4px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+
+#contacts button {
+    width: 30%;
+    height: 50px;
+    background-color: #f15a29;
+    color: #fff;
+    border: none;
+    outline: none;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -o-border-radius: 4px;
+    border-radius: 4px;
+    padding: 0;
+    font-family: 'museo_sans_cyrl500';
+    margin-left: 1%;
+}
+/*-------------------------*/
+
+                /*START FOOTER*/
+
+footer {
+    height: 317px;
+    background-color: #f15a29;
+}
+
+.footer_block {
+    width: 21%;
+    min-width: 21%;
+    margin: 0 40% 0 39%;
+}
+
+.footer_block > img.footer_logo {
+    margin-top: 60px;
+}
+
+.footer_block > h3 {
+   font-family: 'museo_sans_cyrl500';
+   font-size: 125%;
+   color: #fff; 
+   margin-bottom: 40px;
+}
+/*social sprite*/
+.footer_block > a.social_sprite_one {
+    width: 39px;
+    height: 39px; 
+    background-image: url(images/social_sprite.png);
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.footer_block > a.social_sprite_two {
+    width: 39px;
+    height: 39px; 
+    background-image: url(images/social_sprite.png);
+    background-position: -39px 0;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.footer_block > a.social_sprite_three {
+    width: 39px;
+    height: 39px; 
+    background-image: url(images/social_sprite.png);
+    background-position: -78px 0;
+    display: inline-block;
+}
+/*--*/
+.footer_block > p {
+    font-family: 'museo_sans_cyrl700';
+    margin-top: 60px;
+    color: #c22d00;
+}
+
+                /*END FOOTER*/
