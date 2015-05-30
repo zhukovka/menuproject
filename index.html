@@ -3,22 +3,26 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Menu</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/icomoon/style.css">
 	<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 	<header>
 		<nav class="navigation">
+			<a href="javascript:void(0);" class="nav-icon fa fa-bars"></a>
 			<ul>
 				<li><a href="#fast-food">Fast-food</a></li>
-				<li><a href="#drinks">Drinks</a></li>
-				<li><a href="#"></a></li>
-				<li><a href="#"></a></li>
+				<li><a href="#">Drinks</a></li>
+				<li><a href="#">Dishes</a></li>
+				<li><a href="#">Contact</a></li>
 			</ul>
 		</nav>
 		<div class="">
 			<!-- top image -->
 			<div class="banner">
 				<h1 class="heading logo">
+					<span class="icon-food"></span>
 					<span class="heading-light_text">We provide the best Food At the</span> Right Price
 				</h1>
 			</div>
@@ -48,65 +52,84 @@
 		
 	</header>
 	<section>
-		<article id="fast-food">
-			<div><img src="" alt=""></div>
-			<div>
-				<h1 class="heading">Fast Food</h1>
-				<h2 class="heading">You'll love our delicous fast food</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisic
-					ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce
-					teur sint occaecat cupi datat non proident
-				</p>
-				<button>View Gallery &rarr;</button>
+		<article id="fast-food" class="content">
+			<div class="row">
+				<div class="column-50"><img class="img-size" src="assets/images/article-1.png" alt=""></div>
+				<div class="column-50">
+					<h1 class="heading">Fast Food</h1>
+					<h2 class="heading">You'll love our delicous fast food</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisic
+						ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce
+						teur sint occaecat cupi datat non proident
+					</p>
+					<button>View Gallery &rarr;</button>
+				</div>
 			</div>
 		</article>
-		<article id="drinks">
-			<div><img src="" alt=""></div>
-			<div>
-				<h1 class="heading">Drinks</h1>
-				<h2 class="heading">We also produce delicious drinks</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisic
-					ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce
-					teur sint occaecat cupi datat non proident
-				</p>
-				<button>View Gallery &rarr;</button>
+		<article class="content">
+			<div class="row">
+				<div class="column-50">
+					<h1 class="heading">Drinks</h1>
+					<h2 class="heading">We also produce delicious drinks</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisic
+						ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce
+						teur sint occaecat cupi datat non proident
+					</p>
+					<button>View Gallery &rarr;</button>
+				</div>
+				<div class="column-50"><img class="img-size" src="assets/images/article-2.png" alt=""></div>
+			</div>
+		</article>
+		<div class="tabs">
+			<ul>
+				<li>
+					<div class="list_slider">
+						<img src="#" alt="">
+						<img src="#" alt="">
+						<img src="#" alt="">
+					</div>
+				</li>
+				<li>
+					<div class="list_slider">
+						<img src="#" alt="">
+						<img src="#" alt="">
+						<img src="#" alt="">
+					</div>
+				</li>
+				<li>
+					<div class="list_slider">
+						<img src="#" alt="">
+						<img src="#" alt="">
+						<img src="#" alt="">
+					</div>
+				</li>
+				<li>
+					<div class="list_slider">
+						<img src="#" alt="">
+						<img src="#" alt="">
+						<img src="#" alt="">
+					</div>
+				</li>
+			</ul>
+		</div>
+		<article class="testimonials content">
+			<div class="row">
+				<div class="column-50"><img class="img-size" src="assets/images/article-1.png" alt=""></div>
+				<div class="column-50">
+					<h1 class="heading">Fast Food</h1>
+					<h2 class="heading">You'll love our delicous fast food</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisic
+						ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce
+						teur sint occaecat cupi datat non proident
+					</p>
+					<button>View Gallery &rarr;</button>
+				</div>
 			</div>
 		</article>
 	</section>
-	<div class="tabs">
-		<ul>
-			<li>
-				<div class="list_slider">
-					<img src="#" alt="">
-					<img src="#" alt="">
-					<img src="#" alt="">
-				</div>
-			</li>
-			<li>
-				<div class="list_slider">
-					<img src="#" alt="">
-					<img src="#" alt="">
-					<img src="#" alt="">
-				</div>
-			</li>
-			<li>
-				<div class="list_slider">
-					<img src="#" alt="">
-					<img src="#" alt="">
-					<img src="#" alt="">
-				</div>
-			</li>
-			<li>
-				<div class="list_slider">
-					<img src="#" alt="">
-					<img src="#" alt="">
-					<img src="#" alt="">
-				</div>
-			</li>
-		</ul>
-	</div>
-	<footer></footer>
+	<footer>&copy;</footer>
 </body>
 </html>
