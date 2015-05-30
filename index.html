@@ -3,17 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Menu</title>
-	<link rel="stylesheet" href="assets/font.css">
+	<link rel="stylesheet" href="assets/fonts.css">
 	<link rel="stylesheet" href="assets/style.css">
 	</head>
 <body>
 	<header>
-		<nav>
+		<nav class="navigation">
 			<ul>
-				<li><a href="#"></a></li>
-				<li><a href="#"></a></li>
-				<li><a href="#"></a></li>
-				<li><a href="#"></a></li>
+				<li><a href="#fast-food">Fast-food</a></li>
+				<li><a href="#drinks">Drinks</a></li>
+				<li><a href="#chicken">Chicken</a></li>
+				<li><a href="#rice">Rice</a></li>
 			</ul>
 		</nav>
 		<div class="">
@@ -23,23 +23,37 @@
 					<span class="heading-light_text">We provide the best Food At the</span> Right Price
 				</h1>
 			</div>
-			<div class="offers">
-				<div class="mainBlock"><a href="" class="heading">Happy hour</a></div>
-				<div class="mainBlock"><a href="" class="heading">Party time</a></div>
-				
-				<div class="otherBlock">
-					<a href="" class="heading heading-italic_text">Breakfast</a>
+			<div class="offers table-view">
+				<div class="table-cell-view-25">
+					<div class="happyHour">
+						<a href="" class="heading">Happy hour</a>
+					</div>
+					<div class="partyTime">
+						<a href="" class="heading">Party time</a>
+					</div>
 				</div>
-				<div class="otherBlock"><a href="" class="heading-italic_text heading">Lunch</a></div>
-				<div class="otherBlock"><a href="" class="heading heading-italic_text">Dinner</a></div>
+				
+				<div class="table-cell-view-25">
+					<div class="otherBlock-Breakfast">
+						<a href="" class="heading heading-italic_text" style="line-height: 210px;">Breakfast</a>
+					</div>
+				</div>
+				<div class="table-cell-view-25">
+					<div class="otherBlock-Lunch">
+						<a href="" class="heading-italic_text heading" style="line-height: 210px;">Lunch</a></div>
+				</div>
+				<div class="table-cell-view-25">
+					<div class="otherBlock-Dinner">
+						<a href="" class="heading heading-italic_text" style="line-height: 210px;">Dinner</a></div>
+				</div>
 			</div><!-- /.offers -->
 		</div>
 		
 	</header>
-	<section>
-		<article>
-			<div><img src="" alt=""></div>
-			<div>
+	<section class="mainBlock">
+		<article id="fast-food">
+			<div class="fastfoodImg"><img src="assets/images/fastfood.jpg" alt=""></div>
+			<div class="fastfoodTxt">
 				<h1 class="heading">Fast Food</h1>
 				<h2 class="heading">You'll love our delicous fast food</h2>
 				<p>
@@ -47,12 +61,14 @@
 					ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce
 					teur sint occaecat cupi datat non proident
 				</p>
-				<button>View Gallery &rarr;</button>
+				<!-- <button>View Gallery &rarr;</button> -->
+				<!-- наша кнопка -->
+				<a href=""><img src="assets/images/button.jpg"></a>
 			</div>
 		</article>
-		<article>
-			<div><img src="" alt=""></div>
-			<div>
+		<article id="drinks">
+			<div class="drinksImg"><img src="assets/images/drinks.jpg" alt=""></div>
+			<div class="drinksTxt">
 				<h1 class="heading">Drinks</h1>
 				<h2 class="heading">We also produce delicious drinks</h2>
 				<p>
@@ -60,7 +76,9 @@
 					ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce
 					teur sint occaecat cupi datat non proident
 				</p>
-				<button>View Gallery &rarr;</button>
+				<!-- <button>View Gallery &rarr;</button> -->
+				<!-- наша кнопка -->
+				<a href=""><img src="assets/images/button.jpg"></a>
 			</div>
 		</article>
 	</section>
@@ -96,5 +114,6 @@
 			</li>
 		</ul>
 	</div>
+	<footer></footer>
 </body>
 </html>

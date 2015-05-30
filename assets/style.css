@@ -1,5 +1,6 @@
 body{
-	margin: 0;
+    width: 100%;
+	margin: 0 auto;
     font-family: 'museo_sans_cyrl500';
     font-size: 100%;
 }
@@ -13,6 +14,7 @@ body{
 
 h1.heading{
     font-size: 250%;
+    
 }
 
 h2.heading{
@@ -21,6 +23,7 @@ h2.heading{
 
 a.heading{
     font-size: 187%;
+    color: white;
 }
 
 
@@ -32,12 +35,43 @@ a.heading{
 
 p {
 }
+
+.table-view{
+    display: table;
+    width: 100%;
+}
+
+*[class *= 'table-cell-view']{
+    display: table-cell;
+}
+
+.table-cell-view-25{
+    width: 25%;
+}
+.table-cell-view-100{
+    width: 100%;
+}
+.offers{
+    height: 210px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.offers > .table-cell-view-25{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.offers a.heading{
+    line-height: 105px;
+}
                 /*HEADER START*/
 .banner{
     background: url(images/burgers.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 634px;
+    height: 100vh;
 
 }
 
@@ -49,16 +83,130 @@ p {
 }
 
 
-nav {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    background-color: blue;
-
+/*-----------------------------*/
+.mainBlock{
+    width: 80%;
+    /*background-color: yellow;*/
+    margin: 0 auto;
 }
 
-.offers {
+
+#fast-food{
+    overflow: hidden;
+}
+#drinks{
+    overflow: hidden;
+}
+
+.fastfoodImg{
+    width: 50%;
+    float: left;
+}
+.fastfoodTxt{
+    width: 50%;
+    float: right;
+}
+.drinksImg{
+    width: 50%;
+    float: right;
+}
+.drinksTxt{
+    width: 50%;
+    float: left;
+}
+
+
+
+/*======================*/
+
+header{
+    position: relative;
+    height: 100vh;
+}
+
+nav.navigation{
     position: absolute;
-    bottom: 0;
+    top: 0;
+    color: white;
+}
+
+/*=======================*/
+
+
+
+/*=======otherblock==опти======*/
+
+*[class *= 'otherBlock']{
+    display: otherBlock;
+    background-size: cover;
+    height: 210px;
+    background-color: #000; /*Чёрный фон*/
+    opacity: 1; /*Степень прозрачности*/
+}
+
+/*===========================*/
+
+
+.happyHour{
+    background-color: #e4e5e7;
+ }
+
+.partyTime{
+    background-color: #f15a29;
+ } 
+
+
+.otherBlock-Breakfast{
+    background: url(images/breakfast.jpg);
+/*    background-size: cover;
+    height: 210px;
+    background-color: #000;
+    opacity: 1;*/
+}
+
+.otherBlock-Lunch{
+    background: url(images/lunch.jpg);
+/*    background-size: cover;
+    height: 210px;
+    background-color: #000; 
+    opacity: 1; */
+}
+
+.otherBlock-Dinner{
+    background: url(images/dinner.jpg);
+/*    background-size: cover;
+    height: 210px;
+    background-color: #000; 
+    opacity: 1;   */
+}
+
+/*============Осветление otherBlock=============*/
+
+.otherBlock-Breakfast:hover{
+    background: url(images/copy_img/breakfast.jpg);
+    background-size: cover;
+    /*opacity: 0.50;*/
+}
+
+.otherBlock-Lunch:hover{
+    background: url(images/copy_img/lunch.jpg);
+    background-size: cover;
+    /*opacity: 0.50;*/
+}
+.otherBlock-Dinner:hover{
+    background: url(images/copy_img/dinner.jpg);
+    background-size: cover;
+   /* opacity: 0.50;*/
+}
+
+/*Обратился к happyHour и сделал его чорным цветом*/
+
+/*body > header > div > div.offers.table-view > div:nth-child(1) > div.happyHour > a*/
+
+
+
+.offers.table-view div:first-child .happyHour a {
+    /*display: none;*/
+    color: black;
 }
 
