@@ -133,6 +133,10 @@ a.heading{
 	font-family: 'Aleo_Light';
 }
 
+.heading-regular_text{
+    font-family: 'aleo';
+}
+
 p {
 }
 
@@ -197,4 +201,18 @@ header{
 nav.navigation{
     position: absolute;
     top: 0;
+}
+
+.white {
+    background-color: white;
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+.orange {
+    background-color: f15a29;
+    color: white;
+    display: block;
+    text-decoration: none;
 }
