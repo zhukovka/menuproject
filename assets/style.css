@@ -1,112 +1,20 @@
-@font-face {
-    font-family: 'Aleo';
-    src: url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.eot'); /* IE9 Compat Modes */
-    /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
-    src: url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.eot?#iefix') format('embedded-opentype'), 
-        url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.woff') format('woff'), 
-        url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.ttf')  format('truetype'), 
-        url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.svg') format('svg'); /* Legacy iOS */               
-    font-style:   normal;
-    font-weight:  400;
-
-}
-
-@font-face {
-    font-family: 'Aleo_Bold';
-    src: url('fonts/Webfont%20Kit/Bold/aleo-bold-webfont.eot'); /* IE9 Compat Modes */
-    /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
-    src: url('fonts/Webfont%20Kit/Bold/aleo-bold-webfont.eot?#iefix') format('embedded-opentype'), 
-        url('fonts/Webfont%20Kit/Bold/aleo-bold-webfont.woff') format('woff'), 
-        url('fonts/Webfont%20Kit/Bold/aleo-bold-webfont.ttf')  format('truetype'), 
-        url('fonts/Webfont%20Kit/Bold/aleo-bold-webfont.svg') format('svg'); /* Legacy iOS */               
-    font-style:   normal;
-    font-weight:  400;
-
-}
-
-@font-face {
-    font-family: 'Aleo_BlodItalic';
-    src: url('fonts/Webfont%20Kit/Bold Italic/aleo-bolditalic-webfont.eot'); /* IE9 Compat Modes */
-    /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
-    src: url('fonts/Webfont%20Kit/Bold Italic/aleo-bolditalic-webfont.eot?#iefix') format('embedded-opentype'), 
-        url('fonts/Webfont%20Kit/Bold Italic/aleo-bolditalic-webfont.woff') format('woff'), 
-        url('fonts/Webfont%20Kit/Bold Italic/aleo-bolditalic-webfont.ttf')  format('truetype'), 
-        url('fonts/Webfont%20Kit/Bold Italic/aleo-bolditalic-webfont.svg') format('svg'); /* Legacy iOS */               
-    font-style:   normal;
-    font-weight:  400;
-
-}
-
-@font-face {
-    font-family: 'Aleo_Light';
-    src: url('fonts/Webfont%20Kit/Light/aleo-light-webfont.eot'); /* IE9 Compat Modes */
-    /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
-    src: url('fonts/Webfont%20Kit/Light/aleo-light-webfont.eot?#iefix') format('embedded-opentype'), 
-        url('fonts/Webfont%20Kit/Light/aleo-light-webfont.woff') format('woff'), 
-        url('fonts/Webfont%20Kit/Light/aleo-light-webfont.ttf')  format('truetype'), 
-        url('fonts/Webfont%20Kit/Light/aleo-light-webfont.svg') format('svg'); /* Legacy iOS */               
-    font-style:   normal;
-    font-weight:  400;
-
-}
-
-@font-face {
-    font-family: 'Aleo_LightItalic';
-    src: url('fonts/Webfont%20Kit/Light Italic/aleo-lightitalic-webfont.eot'); /* IE9 Compat Modes */
-    /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
-    src: url('fonts/Webfont%20Kit/Light Italic/aleo-lightitalic-webfont.eot?#iefix') format('embedded-opentype'), 
-        url('fonts/Webfont%20Kit/Light Italic/aleo-lightitalic-webfont.woff') format('woff'), 
-        url('fonts/Webfont%20Kit/Light Italic/aleo-lightitalic-webfont.ttf')  format('truetype'), 
-        url('fonts/Webfont%20Kit/Light Italic/aleo-lightitalic-webfont.svg') format('svg'); /* Legacy iOS */               
-    font-style:   normal;
-    font-weight:  400;
-
-}
-
-@font-face {
-    font-family: 'Aleo_Regular_Italic';
-    src: url('fonts/Webfont%20Kit/Regular Italic/aleo-italic-webfont.eot'); /* IE9 Compat Modes */
-    /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
-    src: url('fonts/Webfont%20Kit/Regular Italic/aleo-italic-webfont.eot?#iefix') format('embedded-opentype'), 
-        url('fonts/Webfont%20Kit/Regular Italic/aleo-italic-webfont.woff') format('woff'), 
-        url('fonts/Webfont%20Kit/Regular Italic/aleo-italic-webfont.ttf')  format('truetype'), 
-        url('fonts/Webfont%20Kit/Regular Italic/aleo-italic-webfont.svg') format('svg'); /* Legacy iOS */               
-    font-style:   normal;
-    font-weight:  400;
-
-}
-
-@font-face {
-    font-family: 'museo_sans_cyrl500';
-    src: url('fonts/Webfont%20Kit/Museo Sans Cyrl 500/museosanscyrl_1-webfont.eot');
-    src: url('fonts/Webfont%20Kit/Museo Sans Cyrl 500/museosanscyrl_1-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Webfont%20Kit/Museo Sans Cyrl 500/museosanscyrl_1-webfont.woff2') format('woff2'),
-         url('fonts/Webfont%20Kit/Museo Sans Cyrl 500/museosanscyrl_1-webfont.woff') format('woff'),
-         url('fonts/Webfont%20Kit/Museo Sans Cyrl 500/museosanscyrl_1-webfont.ttf') format('truetype'),
-         url('fonts/Webfont%20Kit/Museo Sans Cyrl 500/museosanscyrl_1-webfont.svg#museo_sans_cyrl500') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'museo_sans_cyrl700';
-    src: url('fonts/Webfont%20Kit/Museo Sans Cyrl 700/museosanscyrl_2-webfont.eot');
-    src: url('fonts/Webfont%20Kit/Museo Sans Cyrl 700/museosanscyrl_2-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Webfont%20Kit/Museo Sans Cyrl 700/museosanscyrl_2-webfont.woff2') format('woff2'),
-         url('fonts/Webfont%20Kit/Museo Sans Cyrl 700/museosanscyrl_2-webfont.woff') format('woff'),
-         url('fonts/Webfont%20Kit/Museo Sans Cyrl 700/museosanscyrl_2-webfont.ttf') format('truetype'),
-         url('fonts/Webfont%20Kit/Museo Sans Cyrl 700/museosanscyrl_2-webfont.svg#museo_sans_cyrl700') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
 body{
-	margin: 0;
+    width: 70%;
+    margin: 0 auto;
     font-family: 'museo_sans_cyrl500';
-    font-size: 100%;
+}
+
+section{
+    width: 80%;
+    margin: 0 auto;
+}
+
+article {
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
 .heading{
+     color: black;
     font-family: 'Aleo_Bold';
 }
 
@@ -115,6 +23,7 @@ body{
 }
 
 h1.heading{
+    /*как опустить текст если не display: not-table*/
     font-size: 250%;
 }
 
@@ -124,16 +33,11 @@ h2.heading{
 
 a.heading{
     font-size: 187%;
+    text-decoration: none;
+    color: white;
 }
-
-
-
 .heading-light_text{
-
-	font-family: 'Aleo_Light';
-}
-
-p {
+    font-family: 'Aleo_Light';
 }
 
 .table-view{
@@ -146,17 +50,24 @@ p {
 }
 
 .table-cell-view-25{
+    background: black;
     width: 25%;
 }
-.table-cell-view-100{
-    width: 100%;
+.offers > .table-cell-view-100{
+    color: black;
+    vertical-align: middle;
+    text-align: center;
+    background: #e4e5e7;
+    width: 25%;
 }
+
 .offers{
-    height: 210px;
+    color: black;
     position: absolute;
     bottom: 0;
-    left: 0;
+    
 }
+
 .offers > .table-cell-view-25{
     vertical-align: middle;
     text-align: center;
@@ -165,16 +76,20 @@ p {
 .offers a.heading{
     line-height: 105px;
 }
-                /*HEADER START*/
-.banner{
+                
+
+#banner{
     background: url(images/burgers.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
+    overflow: hidden;
     height: 634px;
 
 }
 
 .logo{
+    padding-top: 4em;
+    text-align: center;
     height: 100%;
     width: 35%;
     margin: auto;
@@ -191,10 +106,102 @@ p {
 
 header{
     position: relative;
-    height: 100vh;
+    padding-bottom: 13em; /*как сделать правельный отступ?*/
 }
 
-nav.navigation{
-    position: absolute;
-    top: 0;
+.opacity-banner{
+    background-color: rgba(255, 0, 0, 0.4);
+     height: 634px;
+ }
+
+#happy_cell{ 
+    color: black;   /*грубая реализация, есть другие варианты?*/
+}
+.semi-cell{
+    background: red;
+}
+.ff_image{
+    padding-right: 2em;
+    padding-bottom: 2em;
+    float: left;
+    /*overflow: hidden;*/
+    
+}
+.ff_image2{
+    float: right;
+    padding-left: 2em;
+}
+
+.otherBlock_1 {
+    background: url(images/breackfast.jpg);
+    background-size: cover;
+    height: 210px; /*поднимает текст(Делает не по центру-вертикаль)*/
+}
+
+.otherBlock_2 {
+    background: url(images/breackfast.jpg);
+    background-size: cover;
+    height: 210px; /*поднимает текст(Делает не по центру-вертикаль)*/
+}
+.otherBlock_3 {
+    background: url(images/breackfast.jpg);
+    background-size: cover;
+    height: 210px; /*поднимает текст(Делает не по центру-вертикаль)*/
+}
+.opacity-block{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%; 
+}
+
+
+.article_board {  /* h1.heading */
+    float: right;
+}
+
+.article_board_text {
+    float: right;
+
+}
+
+     /*Nav-bar*/
+
+nav {
+   position: absolute;
+   padding-top: 2em;
+   padding-left: 2em;
+   font-size: 150%;
+}
+
+.navigation {
+  font-size: 250%;
+  color: #fff;
+  text-decoration: none;
+  top: 2em;
+  left: 2em;
+  font-size: 20px;
+  background: none;
+  border-radius: .2em .2em 0 0;
+}
+
+ul.navigation_dropdown {
+  
+  display: none;
+  position: absolute;
+  top: 100%;
+  margin-top: .5em;
+  min-width: 12em;
+  padding: 0;
+  border-radius: 0 0 .2em .2em;
+   
+}
+
+ul.navigation_dropdown li {
+  list-style-type: none;
+}
+
+ul.navigation_dropdown li a {
+  color: #fff;
+  text-decoration: none;
+  padding: .5em 1em;
+  display: block;
 }

@@ -3,55 +3,71 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Menu</title>
+	<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+	<script src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/fonts.css">
 	<link rel="stylesheet" href="assets/style.css">
+	
+
+<!-- 4 Урок 
++1.Navigation - id сылки, и выпадающие окно. 
+	// Проблема с подключением внешнего .js - {$}
+	// Css-Tricks
++-2. Offers - цвета и картинки(с затемнением).
+3. Section - создать класс, и реалтзовать через Float.
+4. Section - кнопки.
+ -->
 </head>
 <body>
 	<header>
-		<nav class="navigation">
-			<ul>
-				<li><a href="#fast-food">Fast-food</a></li>
-				<li><a href="#"></a></li>
-				<li><a href="#"></a></li>
-				<li><a href="#"></a></li>
-			</ul>
+		<nav>
+			<a class="navigation" href="#menu"> &#9776;</a> 
+				<ul class="navigation_dropdown"> 
+  					<li class="move_for_food"><a href="#Fast_Food">Fast Food</a></li>
+  					<li><a href="#Drink">Drinks</a></li>
+ 				    <li><a href="#Chicken">Chicken</a></li>
+ 				    <li><a href="#Rise">Rise</a></li>
+ 				</ul>
 		</nav>
 		<div class="">
 			<!-- top image -->
-			<div class="banner">
+			<div id="banner">
+			<div class ='opacity-banner'</div>  <!-- <<Почему тег зеленый?(div внутри не закрытого div), (Существеная разница в записи, работает только через rgba, иначе текст тоже становится прозрачным);
+			- Проверить в других експолрерах;
+			-->
 				<h1 class="heading logo">
-					<span class="heading-light_text">We provide the best Food At the</span> Right Price
+					<span class="heading-light_text">We provide the best Food<br> At the</span> Right Price
 				</h1>
 			</div>
-			<div class="offers table-view">
-				<div class="table-cell-view-25">
-					<div>
-						<a href="" class="heading">Happy hour</a>
-					</div>
-					<div class="">
-						<a href="" class="heading">Party time</a>
-					</div>
-				</div>
-				
-				<div class="table-cell-view-25">
-					<div class="otherBlock">
-						<a href="" class="heading heading-italic_text">Breakfast</a>
-					</div>
-				</div>
-				<div class="table-cell-view-25">
-					<div class="otherBlock"><a href="" class="heading-italic_text heading">Lunch</a></div>
-				</div>
-				<div class="table-cell-view-25">
-					<div class="otherBlock"><a href="" class="heading heading-italic_text">Dinner</a></div>
-				</div>
-			</div><!-- /.offers -->
-		</div>
 		
+			<div class="offers table-view">
+
+				<div class="table-cell-view-100">
+					<div>
+						<a id="happy_cell" href="" class="heading">Happy hour</a>
+					</div>
+					<div class="semi-cell">
+						<a href="" class="heading heading-white_text">Party time</a>
+					</div>
+				</div>
+				<div  class="table-cell-view-25">
+					<div  class="otherBlock_1"><a href="" class="heading heading-italic_text">Breakfast</a></div>
+				</div>
+				<div class="table-cell-view-25">
+					<div class="otherBlock_2"><a href="" class="heading heading-italic_text ">Lunch</a></div>
+				</div>
+				<div class="table-cell-view-25">
+					<div class="otherBlock_3"><a href="" class="heading heading-italic_text">Dinner</a></div>
+				</div>
+			</div>
+		</div>
 	</header>
 	<section>
 		<article id="fast-food">
-			<div><img src="" alt=""></div>
-			<div>
-				<h1 class="heading">Fast Food</h1>
+			<div class="ff_image"><img src="assets/images/fast_food.jpg" width="400px" alt=""></div>
+			<div class="article_ff">
+				
+			<h1 id="Fast_Food", class="heading">Fast Food</h1>
 				<h2 class="heading">You'll love our delicous fast food</h2>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisic
@@ -61,10 +77,11 @@
 				<button>View Gallery &rarr;</button>
 			</div>
 		</article>
+	
 		<article>
-			<div><img src="" alt=""></div>
+			<div class="ff_image2"><img src="assets/images/fast_food.jpg" width="400px"  alt=""></div>
 			<div>
-				<h1 class="heading">Drinks</h1>
+				<h1 id="Drink" class="heading">Drinks</h1>
 				<h2 class="heading">We also produce delicious drinks</h2>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisic
@@ -79,30 +96,30 @@
 		<ul>
 			<li>
 				<div class="list_slider">
-					<img src="#" alt="">
-					<img src="#" alt="">
-					<img src="#" alt="">
+					<img src="" alt="">
+					<img src="" alt="">
+					<img src="" alt="">
 				</div>
 			</li>
 			<li>
 				<div class="list_slider">
-					<img src="#" alt="">
-					<img src="#" alt="">
-					<img src="#" alt="">
+					<img src="" alt="">
+					<img src="" alt="">
+					<img src="" alt="">
 				</div>
 			</li>
 			<li>
 				<div class="list_slider">
-					<img src="#" alt="">
-					<img src="#" alt="">
-					<img src="#" alt="">
+					<img src="" alt="">
+					<img src="" alt="">
+					<img src="" alt="">
 				</div>
 			</li>
 			<li>
 				<div class="list_slider">
-					<img src="#" alt="">
-					<img src="#" alt="">
-					<img src="#" alt="">
+					<img src="" alt="">
+					<img src="" alt="">
+					<img src="" alt="">
 				</div>
 			</li>
 		</ul>
@@ -110,3 +127,32 @@
 	<footer></footer>
 </body>
 </html>
+
+
+<script type="text/javascript">
+// Выпадающие меню ( http://scottbolinger.com/simple-jquery-drop-down-menu-in-wordpress/)
+
+$(function() {
+  
+// Dropdown toggle
+$('.navigation').click(function(){
+  $(this).next('.navigation_dropdown').toggle();
+});
+
+$(document).click(function(e) {
+  var target = e.target;
+  if (!$(target).is('.navigation') && !$(target).parents().is('.navigation')) {
+    $('.navigation_dropdown').hide();
+  }
+});
+
+});
+
+ // Плавный скроллинг без типизации тегов (http://jsfiddle.net/d90vcqed/)
+ // Сделать if на все id.
+$(document).ready(function() {
+    $('.move_for_food').click(function(){
+      $('html, body').animate({scrollTop:$('#Fast_Food').position().top - 60}, 2000);
+    });
+});
+</script>
