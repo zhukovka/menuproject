@@ -101,39 +101,138 @@
 }
 
 
-body{
-	margin: 0;
+body {
+    margin: 0;
     font-family: 'museo_sans_cyrl500';
     font-size: 100%;
 }
-.heading{
+
+/*-----------------HEADER-----------------*/
+header {
+    position: relative;
+    height: 100vh;
+}
+
+nav.navigation {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    z-index: 999;
+    width: 50%;
+}
+.navigation>ul{
+    background: white;
+    list-style: none;
+    display: none;
+}
+
+.nav-icon{
+    text-decoration: none;
+    font-size: 3.5em;
+    color: white;
+}
+
+.navigation:hover>ul, .nav-icon:active ~ ul, .nav-icon:focus ~ ul{
+    display: block;
+}
+
+.banner {
+    background: url(images/burgers.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*height: 634px;*/
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+.banner:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-color: rgba(241, 90, 41, 0.6);
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    height: 100%;
+    width: 35%;
+    margin: auto;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.logo>.icon-food{
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #fff;
+    color: #e85a25;
+}
+
+.heading {
     font-family: 'Aleo_Bold';
 }
 
-.heading-italic_text{
+.heading-regular_text {
+    font-family: 'Aleo';
+}
+
+.heading-italic_text {
     font-family: 'Aleo_Regular_Italic';
 }
 
-h1.heading{
+.heading-light_text{
+    font-family: 'Aleo_Light';
+}
+
+h1.heading {
     font-size: 250%;
 }
 
-h2.heading{
+h2.heading {
     font-size: 125%;
+    margin: 25px 0;
 }
 
-a.heading{
+a.heading-regular_text {
     font-size: 187%;
 }
 
-
-
-.heading-light_text{
-
-	font-family: 'Aleo_Light';
+a.heading-full-height {
+    font-size: 187%;
 }
 
-p {
+a.gray-text {
+    color: #4b4b4b;
+    text-decoration: none;
+}
+
+a.white-text {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*-----------------OFFERS-----------------*/
+.table-view {
+    display: table;
+    width: 100%;
+}
+
+*[class *= 'table-cell-view'] {
+    display: table-cell;
+}
+
+.table-cell-view-25 {
+    width: 25%;
+}
+
+.table-cell-view-100 {
+    width: 100%;
 }
 
 .table-view{
@@ -171,17 +270,117 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     height: 634px;
-
 }
 
-.logo{
+.table-cell-top {
+    background: #e4e5e7;
+}
+
+.table-cell-bottom {
+    background: #f15a29;
+}
+
+.offers {
+    height: 210px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.offers > .table-cell-view-25 {
+    vertical-align: middle;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.offers a.heading-regular_text {
+    line-height: 105px;
+}
+
+.offers a.heading-full-height {
+    line-height: 210px;
+}
+
+.other-block-1 {
+    background: url(images/bg-cell-1.jpg);
+}
+
+.other-block-2 {
+    background: url(images/bg-cell-2.jpg);
+}
+
+.other-block-3 {
+    background: url(images/bg-cell-3.jpg);
+}
+
+.transparent-black {
+    background-color: rgba(0, 0, 0, 0.6);
     height: 100%;
-    width: 35%;
-    margin: auto;
-    color: white;
+    width: 100%;
 }
 
+/*-----------------SECTION-----------------*/
+section h1 {
+    margin: 25px 0;
+}
 
+.section-width-80 {
+    width: 80%;
+    margin: auto;
+}
+
+.article-width-80 {
+    width: 80%;
+    margin: auto;
+}
+
+.content{
+    width: 70%;
+    margin: 0 auto;
+}
+.row:before,
+.row:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.row:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.row {
+    *zoom: 1;
+}
+
+*[class*="column-"]{
+    float: left;
+}
+
+.column-30{
+    width: 30%;
+}
+.column-50{
+    width: 50%;
+}
+.column-70{
+    width: 70%;
+}
+.img-size{
+    width: 100%;
+    height: auto;
+}
+.top-article-img {
+    float: left;
+    text-align: center;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+    padding: 10px;
+}
 /*-----------------------------*/
 .mainBlock{
     /*float: left;*/
@@ -197,4 +396,72 @@ header{
 nav.navigation{
     position: absolute;
     top: 0;
+}
+
+.top-article-text {
+    width: 50%;
+    float: right;
+    text-align: left;
+}
+
+#drinks {
+    margin: 100px 0;
+    overflow: hidden;
+}
+
+.bottom-article-img {
+    width: 50%;
+    float: right;
+    text-align: center;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+    padding: 10px;
+}
+
+.bottom-article-text {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.img-frame {
+    border: 20px solid #fff;
+    box-shadow: 0 0 10px #a4a4a4;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    border: 1px solid #e85a25;
+    border-radius: 3px;
+    background: #fff;
+    color: #e85a25;
+    padding: 18px 24px;
+    font-family: 'museo_sans_cyrl700';
+    font-size: 100%;
+    text-transform: uppercase;
+    margin: 25px 0;
+    cursor: pointer;
+}
+
+button:hover{
+    border-color: #fff;
+    border-bottom: 3px solid #bd4113;
+    background: #e85a25;
+    color: #fff;
+
+}
+
+/*-----------------TABS-----------------*/
+.tabs {
+    background: url(images/bg-tabs.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    clear: both;
 }
