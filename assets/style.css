@@ -116,24 +116,42 @@ header {
 nav.navigation {
     position: absolute;
     top: 0;
-    left: 50px;
-    z-index: 999;
+    left: 0;
+    z-index: 98;
     width: 50%;
+    height: 100%;
 }
+
 .navigation>ul{
+    /*static*/
     background: white;
     list-style: none;
-    display: none;
+    margin: 0;
+    /*display: none;*/
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 1s;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .nav-icon{
     text-decoration: none;
     font-size: 3.5em;
     color: white;
+    position: absolute;
+    z-index: 99;
+    top: 20px;
+    left: 20px;
 }
 
-.navigation:hover>ul, .nav-icon:active ~ ul, .nav-icon:focus ~ ul{
-    display: block;
+/*.navigation:hover>nav>ul, */.nav-icon:active + nav>ul, .nav-icon:focus + nav>ul{
+    /*dynamic*/
+    /*display: block;*/
+    width: 100%;
+    height: 100%;
 }
 
 .banner {
@@ -146,7 +164,7 @@ nav.navigation {
     z-index: 1;
 }
 
-.banner:before{
+.banner::before{
     content: '';
     position: absolute;
     top: 0;
@@ -157,22 +175,42 @@ nav.navigation {
 }
 
 .logo {
-    height: 100%;
+    /*height: 100%;*/
     width: 35%;
     margin: auto;
     color: white;
     text-align: center;
     text-transform: capitalize;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .logo>.icon-food{
     display: block;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+    margin: auto;
     border-radius: 50%;
     background: #fff;
     color: #e85a25;
+    position: relative;
+    transition: all 1s;
+    
 }
+.logo>.icon-food:hover{
+    transform: rotate(360deg);
+}
+.logo>.icon-food::before{
+    /*center element*/
+    position: absolute;
+    font-size: 2.5em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 
 .heading {
     font-family: 'Aleo_Bold';
@@ -217,7 +255,24 @@ a.white-text {
     text-decoration: none;
 }
 
+.frame{
+    border: 4px solid white;
+    box-shadow: 0 0 5px #777;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.frame > img{
+    transition: all 1s;
+    display: block;
+}
+
+.frame:hover > img{
+    transform: scale(2);
+}
+
 /*-----------------OFFERS-----------------*/
+
 .table-view {
     display: table;
     width: 100%;
@@ -358,6 +413,8 @@ section h1 {
 
 *[class*="column-"]{
     float: left;
+    padding: 0 5px;
+    box-sizing: border-box;
 }
 
 .column-30{
