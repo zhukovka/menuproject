@@ -334,6 +334,7 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     height: 600px;
     clear: both;
 }
