@@ -3,66 +3,85 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Menu</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/icomoon/style.css">
+	<link rel="stylesheet" href="assets/fonts.css">
 	<link rel="stylesheet" href="assets/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
+	<link href='assets/tabulous.css' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/tabulous.min.js"></script>
 </head>
 <body>
 	<header>
+		
+		<a href="javascript:void(0);" class="nav-icon fa fa-bars"></a>
 		<nav class="navigation">
 			<ul>
 				<li><a href="#fast-food">Fast Food</a></li>
 				<li><a href="#drinks">Drinks</a></li>
-				<li><a href="#"></a></li>
-				<li><a href="#"></a></li>
+				<li><a href="#customers-recalls">Recalls</a></li>
+				<li><a href="#subscribe">Subscribe</a></li>
 			</ul>
 		</nav>
+
 		<div class="">
+
 			<div class="banner">
 				<div class="transparent-orange">
 					<h1 class="heading logo">
+						<span class="icon-food orange-text"><span class="aleo-bold-text">MENU</span></span>
 						<span class="heading-light_text">We provide the best food at the</span> right price
 					</h1>
 				</div>
 			</div>
+
 			<div class="offers table-view">
 				<div class="table-cell-view-25">
 					<div class="table-cell-top">
-						<a href="" class="heading-regular_text gray-text">Happy hour</a>
+						<a href="#" class="heading-regular_text gray-text">Happy hour</a>
 					</div>
 					<div class="table-cell-bottom">
-						<a href="" class="heading-regular_text white-text">Party time</a>
+						<a href="#" class="heading-regular_text white-text">Party time</a>
 					</div>
 				</div>
 				<div class="table-cell-view-25">
 					<div class="other-block-1">
 						<div class="transparent-black">
-							<a href="" class="heading-full-height heading-italic_text white-text">Breakfast</a>
+							<a href="#" class="heading-full-height heading-italic_text white-text">Breakfast</a>
 						</div>
 					</div>
 				</div>
 				<div class="table-cell-view-25">
 					<div class="other-block-2">
 						<div class="transparent-black">
-							<a href="" class="heading-full-height heading-italic_text white-text">Lunch</a>
+							<a href="#" class="heading-full-height heading-italic_text white-text">Lunch</a>
 						</div>
 					</div>
 				</div>
 				<div class="table-cell-view-25">
 					<div class="other-block-3">
 						<div class="transparent-black">
-							<a href="" class="heading-full-height heading-italic_text white-text">Dinner</a>
+							<a href="#" class="heading-full-height heading-italic_text white-text">Dinner</a>
 						</div>
 					</div>
 				</div>
 			</div>
+
 		</div>
+
 	</header>
-	<section class="section-width-80">
+
+	<section class="content-80 gray-text">
 		<article id="fast-food">
-			<div class="top-article-img">
-				<img class="img-frame article-width-80" src="assets/images/article-1.png" alt="Fast food">
+			<div class="column-50">
+				<div class="img-frame">
+					<img class="img-size" src="assets/images/article-1.png" alt="Fast food">
+				</div>
 			</div>
-			<div class="top-article-text">
-				<div class="article-width-80">
+			<div class="column-50">
+				<div class="fast-food-text">
 					<h1 class="heading">Fast Food</h1>
 					<h2 class="heading">You'll love our delicous fast food</h2>
 					<p>
@@ -75,11 +94,8 @@
 			</div>
 		</article>
 		<article id="drinks">
-			<div class="bottom-article-img">
-				<img class="img-frame article-width-80" src="assets/images/article-2.png" alt="Drinks">
-			</div>
-			<div class="bottom-article-text">
-				<div class="article-width-80">
+			<div class="column-50">
+				<div class="drinks-text">
 					<h1 class="heading">Drinks</h1>
 					<h2 class="heading">We also produce delicious drinks</h2>
 					<p>
@@ -90,42 +106,115 @@
 					<button>View Gallery &rarr;</button>
 				</div>
 			</div>
+			<div class="column-50">
+				<div class="img-frame">
+					<img class="img-size" src="assets/images/article-2.png" alt="Fast food">
+				</div>
+			</div>
 		</article>
 	</section>
-	<div class="tabs">
+<!--TABS-->	
+	<div class="bg-tabs">
 		<div class="transparent-black">
-			<ul>
-				<li>
-					<div class="list_slider">
-						<img src="#" alt="">
-						<img src="#" alt="">
-						<img src="#" alt="">
-					</div>
-				</li>
-				<li>
-					<div class="list_slider">
-						<img src="#" alt="">
-						<img src="#" alt="">
-						<img src="#" alt="">
-					</div>
-				</li>
-				<li>
-					<div class="list_slider">
-						<img src="#" alt="">
-						<img src="#" alt="">
-						<img src="#" alt="">
-					</div>
-				</li>
-				<li>
-					<div class="list_slider">
-						<img src="#" alt="">
-						<img src="#" alt="">
-						<img src="#" alt="">
-					</div>
-				</li>
-			</ul>
+			<div class="main-tabs">
+				<div id="tabs">
+					<ul>
+						<li><a href="#tabs-1" title="">Fast Food</a></li>
+						<li><a href="#tabs-2" title="">Drinks</a></li>
+						<li><a href="#tabs-3" title="">Chicken</a></li>
+						<li><a href="#tabs-4" title="">Rice</a></li>
+					</ul>
+					<div id="tabs_container">
+						<div id="tabs-1" class="gray-text">
+							tabs 1
+						</div>
+						<div id="tabs-2" class="gray-text">
+							tab 2
+						</div>
+						<div id="tabs-3" class="gray-text">
+							 tab3
+						</div>
+						<div id="tabs-4" class="gray-text">
+							 tab4
+						</div>
+					</div><!--End tabs container-->	
+				</div><!--End tabs-->
+				<div class="autoplay orange-text museo-700-text">
+					<div><img src="assets/images/item-1.jpg" alt=""><span>Chicken Burger</span></div>
+					<div><img src="assets/images/item-2.jpg" alt=""><span>Beef Burger</span></div>
+					<div><img src="assets/images/item-3.jpg" alt=""><span>Chicken Pizza</span></div>
+					<div><img src="assets/images/item-1.jpg" alt=""><span>Chicken Burger</span></div>
+					<div><img src="assets/images/item-2.jpg" alt=""><span>Beef Burger</span></div>
+					<div><img src="assets/images/item-3.jpg" alt=""><span>Chicken Pizza</span></div>
+				</div>
+			</div>
 		</div>
 	</div>
-	<footer></footer>
+<!--TABS END-->	
+<!--HAPPY CUSTOMERS-->	
+	<div id="customers-recalls" class="happy-customers">
+		<div class="content-80 happy-customers-out-box">
+			<div class="happy-customers-in-box">
+				<div class="recall">
+					<p class="orange-text font-125 aleo-bold-text">Our Happy Customers</p>
+				</div>
+				<div class="about-menu">
+					<p class="orange-text font-125 aleo-bold-text">About Menu</p>
+					<p class="gray-text">We are menu a little team of 7 members. Ut wisi enim ad minim veniam, quis nos trudexer ci tation ullamcorper suscipit lob ortis nisl ut aliquip ex ea commodo conse quat. Duisau tem vel eum iriure dolor in</p>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--HAPPY CUSTOMERS END-->	
+<!--SUBSCRIBE-->	
+	<div id="subscribe" class="subscribe">
+		<div class="transparent-black">
+			<div class="content-80">
+				<div class="heading align-center">
+					Get our daily food items delivered to your email
+				</div>
+				<div class="button-and-input align-center">
+					<input class="font-125 museo-500-text" type="text" placeholder="Your email">
+					<button class="font-125 museo-500-text">Subscribe</button>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--SUBSCRIBE END-->
+<!--FOOTER-->
+	<footer>
+		<div class="content-20-fixed footer">
+			<div class="white-text font-250 aleo-regular-text">
+				<a href="#" title="" class="footer-first-line"><span class="icon-food"></span> MENU</a>
+			</div>
+			<div class="white-text font-125 footer-second-line">
+				Thats What We Are
+			</div>
+			<div class="white-text footer-icons-line">
+				<a href="#" title="" class="icon"><i class="fa fa-facebook-square"></i></a>
+				<a href="#" title="" class="icon"><i class="fa fa-twitter-square"></i></a>
+				<a href="#" title="" class="icon"><i class="fa fa-pinterest-square"></i></a>
+			</div>
+			<div class="dark-orange-text museo-700-text">
+				&copy; 2014 Menu Restaurant
+			</div>
+		</div>
+	</footer>
+<!--FOOTER END-->
+	<script>
+		$(document).ready(function ($) {
+		    $('#tabs').tabulous({effect: 'scale'});	
+		});
+	</script>
+	<script type="text/javascript" src="assets/js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="assets/slick/slick.min.js"></script>
+  	<script type="text/javascript">
+		$(document).ready(function(){
+  			$('.autoplay').slick({
+				slidesToShow: 3,
+			});
+		});
+  	</script>			
 </body>
 </html>
