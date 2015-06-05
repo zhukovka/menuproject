@@ -110,17 +110,17 @@ body {
 /*-----------------HEADER-----------------*/
 header {
     position: relative;
-    height: 100vh;
+    height: 135vh;
 }
 
-nav.navigation {
+/*nav.navigation {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 98;
     width: 50%;
     height: 100%;
-}
+}*/
 
 .navigation>ul{
     /*static*/
@@ -290,7 +290,7 @@ a.white-text {
     width: 100%;
 }
 
-.table-view{
+.table-view {
     display: table;
     width: 100%;
 }
@@ -305,12 +305,12 @@ a.white-text {
 .table-cell-view-100{
     width: 100%;
 }
-.offers{
+/* .offers{
     height: 210px;
     position: absolute;
     bottom: 0;
     left: 0;
-}
+} */
 .offers > .table-cell-view-25{
     vertical-align: middle;
     text-align: center;
@@ -335,12 +335,12 @@ a.white-text {
     background: #f15a29;
 }
 
-.offers {
+/*.offers {
     height: 210px;
     position: absolute;
     bottom: 0;
     left: 0;
-}
+}*/
 
 .offers > .table-cell-view-25 {
     vertical-align: middle;
@@ -447,7 +447,7 @@ section h1 {
 
 header{
     position: relative;
-    height: 100vh;
+   /* height: 100vh;*/
 }
 
 nav.navigation{
@@ -521,4 +521,50 @@ button:hover{
     background-attachment: fixed;
     height: 600px;
     clear: both;
+}
+
+
+/*=============================*/
+
+.menu-logo-wrap {
+    display: table;
+    width: 100%;
+
+}
+
+/*section {
+    margin-top: 40%;
+}*/
+
+
+a.heading-full-height {
+    font-size: 187%;
+}
+
+a.gray-text {
+    color: #4b4b4b;
+    text-decoration: none;
+}
+
+a.white-text {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.black-text {
+    color: #000;
+    text-decoration: none;
+}
+
+.happyHour {
+    background-color: #e4e5e7;
+    line-height: 105px;
+    font-size: 187%;
+
+}
+
+.partyTime {
+    background-color: #f15a29;
+    line-height: 105px;
+    font-size: 187%;
 }

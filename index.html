@@ -7,10 +7,19 @@
 	<link rel="stylesheet" href="assets/icomoon/style.css">
 	<link rel="stylesheet" href="assets/style.css">
 	<link href='assets/tabulous.css' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/tabulous.min.js"></script>
 </head>
 <body>
+<script>
+/*	$('.multiple-items').slick({
+		  infinite: true,
+		  slidesToShow: 3,
+		  slidesToScroll: 3
+	});*/
+</script>
 	<header>
 		<a href="javascript:void(0);" class="nav-icon fa fa-bars"></a>
 		<nav class="navigation">
@@ -21,7 +30,7 @@
 				<li><a href="#">Contact</a></li>
 			</ul>
 		</nav>
-		<div class="">
+		<div class="menu-logo-wrap">
 			<!-- top image -->
 			<div class="banner">
 				<h1 class="heading logo">
@@ -31,24 +40,24 @@
 			</div>
 			<div class="offers table-view">
 				<div class="table-cell-view-25">
-					<div>
-						<a href="" class="heading">Happy hour</a>
+					<div class="happyHour">
+						<a href="" class="heading black-text">Happy hour</a>
 					</div>
-					<div class="">
-						<a href="" class="heading">Party time</a>
+					<div class="partyTime">
+						<a href="" class="heading white-text">Party time</a>
 					</div>
 				</div>
 				
 				<div class="table-cell-view-25">
-					<div class="otherBlock">
-						<a href="" class="heading heading-italic_text">Breakfast</a>
+					<div class="other-block-1">
+						<a href="" class="heading heading-full-height heading-italic_text white-text">Breakfast</a>
 					</div>
 				</div>
 				<div class="table-cell-view-25">
-					<div class="otherBlock"><a href="" class="heading-italic_text heading">Lunch</a></div>
+					<div class="other-block-2"><a href="" class="heading-italic_text heading-full-height heading white-text">Lunch</a></div>
 				</div>
 				<div class="table-cell-view-25">
-					<div class="otherBlock"><a href="" class="heading heading-italic_text">Dinner</a></div>
+					<div class="other-block-3"><a href="" class="heading heading-italic_text heading-full-height white-text">Dinner</a></div>
 				</div>
 			</div><!-- /.offers -->
 		</div>
@@ -95,17 +104,21 @@
 		</article>
 		<div id="tabs">
 		<ul>
-			<li><a href="#tabs-1" title="">Tab 1</a></li>
-			<li><a href="#tabs-2" title="">Tab 2</a></li>
-			<li><a href="#tabs-3" title="">Tab 3</a></li>
+			<li><a href="#tabs-1" title="">Fast Food</a></li>
+			<li><a href="#tabs-2" title="">Drinks</a></li>
+			<li><a href="#tabs-3" title="">Chicken</a></li>
+			<li><a href="#tabs-4" title="">Rice</a></li>
 		</ul>
 
 		<div id="tabs_container">
 			
 
 			<div id="tabs-1">
-				<!--tab content-->
-				tab 1
+				<div class="your-class">
+				    <div>your content</div>
+				    <div>your content</div>
+				    <div>your content</div>
+			  </div>
 			</div>
 
 			<div id="tabs-2">
@@ -116,6 +129,11 @@
 			<div id="tabs-3">
 				    <!--tab content-->
 				 tab3
+			</div>
+
+			<div id="tabs-4">
+					<!--tab content-->
+				tab4
 			</div>
 
 		</div><!--End tabs container-->
@@ -137,13 +155,31 @@
 			</div>
 		</article>
 	</section>
-	<footer>&copy;</footer>
-	<script>
-		$(document).ready(function ($) {
+			<div class="your-class">
+				    <div>your content</div>
+				    <div>your content</div>
+				    <div>your content</div>
+			  </div>
 
+	<footer>&copy;</footer>
+	<script type="text/javascript" src="assets/slick/slick.min.js"></script>
+
+	<script>
+	/*	$(document).ready(function ($) {
 		    $('#tabs').tabulous({effect: 'scale'});	
 
+		      $('.your-class').slick({
+
+		});*/
+
+$(document).ready(function(){
+  $('.your-class').slick({
+		  infinite: true,
+		  slidesToShow: 3,
+		  slidesToScroll: 3
 		});
+	});
+// alert(1);
 	</script>
 </body>
 </html>
