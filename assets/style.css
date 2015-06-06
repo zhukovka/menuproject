@@ -118,7 +118,7 @@ nav.navigation {
     top: 0;
     left: 0;
     z-index: 98;
-    width: 25%;
+    /*width: 25%;*/
     height: 100%;
 }
 
@@ -163,6 +163,9 @@ nav.navigation {
     padding-top: 120px;
     padding-left: 40px;
 }
+.nav-icon:active + nav, .nav-icon:focus + nav{
+    width: 25%;
+}
 
 .nav-icon:active + nav li, .nav-icon:focus + nav li {
     padding-bottom: 30px;
@@ -182,6 +185,7 @@ header {
     background: url(images/burgers.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     /*height: 634px;*/
     height: 100vh;
 }
@@ -399,11 +403,11 @@ article button:hover {
     padding: 100px 0;
 }
 
-.autoplay {
+/*.autoplay {
     width: 900px;
     margin: auto;
     text-align: center;
-}
+}*/
 
 /*-----------------HAPPY CUSTOMERS-----------------*/
 .happy-customers {
@@ -480,7 +484,7 @@ article button:hover {
 
 .subscribe input {
     height: 50px;
-    width: 390px;
+    /*width: 390px;*/
     border: none;
     border-radius: 3px;
     margin-right: 20px;
@@ -537,4 +541,68 @@ footer {
 
 a.icon {
     color: #fff;
+}
+
+.animated-left{
+    display: inline-block;
+    -webkit-animation: swipe 3s linear;
+    animation: swipe 3s linear;
+}
+.animated-top{
+    display: inline-block;
+    -webkit-animation: swipe-top 3s linear;
+    animation: swipe-top 3s linear;
+}
+
+.rollIn{
+    /*-webkit-animation-duration:5s;*/
+    /*animation-duration:5s;*/
+}
+@-webkit-keyframes swipe{
+    0%{
+        transform: translateX(200%);
+    }
+    25%{
+        transform: translateX(190%);
+    }
+}
+@keyframes swipe{
+    0%{
+        transform: translateX(200%);
+    }
+    25%{
+        transform: translateX(190%);
+    }
+   
+}
+@-webkit-keyframes swipe-top{
+    0%{
+        transform: translateY(-150%);
+    }
+    25%{
+        transform: translateY(-120%);
+    }
+}
+@keyframes swipe-top{
+    0%{
+        transform: translateY(-150%);
+    }
+    25%{
+        transform: translateY(-120%);
+    }
+   
+}
+/*@media screen and (max-width: 980px)*/
+@media screen and (max-width: 780px){
+    
+    .column-50 {
+        width: 100%;
+    }
+    .hidden-xs{
+        display: none !important;
+    }
+
+    .nav-icon:active + nav, .nav-icon:focus + nav{
+        width: 75%;
+    }
 }
