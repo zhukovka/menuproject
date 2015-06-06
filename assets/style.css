@@ -310,6 +310,7 @@ a.white-text {
     position: absolute;
     bottom: 0;
     left: 0;
+    z-index: 1;
 }
 .offers > .table-cell-view-25{
     vertical-align: middle;
@@ -335,12 +336,6 @@ a.white-text {
     background: #f15a29;
 }
 
-.offers {
-    height: 210px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
 
 .offers > .table-cell-view-25 {
     vertical-align: middle;
@@ -391,7 +386,7 @@ section h1 {
 
 .content{
     width: 70%;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 .row:before,
 .row:after {
@@ -513,7 +508,7 @@ button:hover{
 }
 
 /*-----------------TABS-----------------*/
-.tabs {
+.skovorodko {
     background: url(images/bg-tabs.jpg);
     background-repeat: no-repeat;
     background-position: center;
