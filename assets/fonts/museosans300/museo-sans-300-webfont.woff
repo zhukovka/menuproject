@@ -9,7 +9,7 @@
     <meta http-equiv="Content-Language" content="en">
     
     
-    <title>afkar/museo-sans-500-webfont.eot at master · parimew/afkar</title>
+    <title>afkar/museo-sans-300-webfont.woff at master · parimew/afkar</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
@@ -23,7 +23,7 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/MTI0ODEwNzA6OGMyODdkODQyYWIwYjZiNDIyY2ZiMjI5MTEwZDg2N2I6ZmU4ZDk4ODY3MDIwZTJjOGFlNGJlODc1OTVmMzc3YzlmYTg2ODAxYmVmYmYyZGM4M2QwYThmZGM5NTMxMDM4Ng==--be60ee6ef360cba285113e9a3748d50be074c3b1">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/MTI0NzMyMTg6MjFjNmFiOGI1ODdmZTQ3YzRiYzllNTliZWIzNmM2MjU6OTY5ZWJiOGYwYTMwZTMwYzE2YTRhOGY4OTg3MzU5NzRkNWY3YzNhYzBkMTJhZTFkNzNjYTA4NWNmMDkyZmNjNw==--8fa5ba1cb61ab8952b0941f695f3b0de69582cfd">
     <meta name="pjax-timeout" content="1000">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
 
@@ -32,29 +32,29 @@
     <meta name="selected-link" value="repo_source" data-pjax-transient>
       <meta name="google-analytics" content="UA-3769691-2">
 
-    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="B0258327:2D29:39A541B:555F7A3F" name="octolytics-dimension-request_id" /><meta content="12481070" name="octolytics-actor-id" /><meta content="JustAliwka" name="octolytics-actor-login" /><meta content="c1103dbe21e68bd04dc543f7d75ac6ca7bb0364d535618a05b94cb6a3069edb5" name="octolytics-actor-hash" />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="5D48AB78:703F:620F31B:5560670E" name="octolytics-dimension-request_id" /><meta content="12473218" name="octolytics-actor-id" /><meta content="alexdiamo" name="octolytics-actor-login" /><meta content="ded77a54cf7a6d48137af563925a0d14ad375c4364eea71c9b9db182353842aa" name="octolytics-actor-hash" />
     
     <meta content="Rails, view, blob#show" name="analytics-event" />
     <meta class="js-ga-set" name="dimension1" content="Logged In">
     <meta class="js-ga-set" name="dimension2" content="Header v3">
     <meta name="is-dotcom" content="true">
       <meta name="hostname" content="github.com">
-    <meta name="user-login" content="JustAliwka">
+    <meta name="user-login" content="alexdiamo">
 
     
     <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
 
 
     <meta content="authenticity_token" name="csrf-param" />
-<meta content="F6SkEBXxrxFzlH/5YYHVQiH3Wn4ENlfyPti/xkKsP0V5ehr1115bICObui1E5IIsYLftZBjwc8kLU3QXZbM1Sw==" name="csrf-token" />
+<meta content="r65ejNoLtVsRmkHYb2Rb7SQFdsWxHfyORxhrGGJ1cZffk6pU1qoZw2QWFb08QovoQaJJGlI5SWSMhNDf6g8bXA==" name="csrf-token" />
 
-    <link href="https://assets-cdn.github.com/assets/github/index-cfbd527cae2c39b53795cf6a8e65d5557c7e24e3d56b67715f7ae15ea22357bf.css" media="all" rel="stylesheet" />
-    <link href="https://assets-cdn.github.com/assets/github2/index-1b75262205fbd38f032e6638b68e9699d647449f6392847187ef4afe4f2aac47.css" media="all" rel="stylesheet" />
+    <link href="https://assets-cdn.github.com/assets/github/index-ec65947a6982ef44ed5617dac5e84463c4b1520f11fdce5e40c3f83efe723ba9.css" media="all" rel="stylesheet" />
+    <link href="https://assets-cdn.github.com/assets/github2/index-a0f5520d0defad5e85346a91608065c06ce9333352edbbab61c574c3af400e40.css" media="all" rel="stylesheet" />
     
     
 
 
-    <meta http-equiv="x-pjax-version" content="240f6dae918d32bf8a64cff91a8c9d10">
+    <meta http-equiv="x-pjax-version" content="d25c70e5f48cb082e6d3e6cb60f816ba">
 
       
   <meta name="description" content="afkar - Afkar website">
@@ -117,10 +117,10 @@
       
 <ul class="header-nav user-nav right" id="user-links">
   <li class="header-nav-item dropdown js-menu-container">
-    <a class="header-nav-link name" href="/JustAliwka" data-ga-click="Header, go to profile, text:username">
-      <img alt="@JustAliwka" class="avatar" data-user="12481070" height="20" src="https://avatars1.githubusercontent.com/u/12481070?v=3&amp;s=40" width="20" />
+    <a class="header-nav-link name" href="/alexdiamo" data-ga-click="Header, go to profile, text:username">
+      <img alt="@alexdiamo" class="avatar" data-user="12473218" height="20" src="https://avatars0.githubusercontent.com/u/12473218?v=3&amp;s=40" width="20" />
       <span class="css-truncate">
-        <span class="css-truncate-target">JustAliwka</span>
+        <span class="css-truncate-target">alexdiamo</span>
       </span>
     </a>
   </li>
@@ -149,10 +149,10 @@
 
   <li class="header-nav-item">
       <span class="js-socket-channel js-updatable-content"
-        data-channel="notification-changed:JustAliwka"
+        data-channel="notification-changed:alexdiamo"
         data-url="/notifications/header">
-      <a href="/notifications" aria-label="You have no unread notifications" class="header-nav-link notification-indicator tooltipped tooltipped-s" data-ga-click="Header, go to notifications, icon:read" data-hotkey="g n">
-          <span class="mail-status all-read"></span>
+      <a href="/notifications" aria-label="You have unread notifications" class="header-nav-link notification-indicator tooltipped tooltipped-s" data-ga-click="Header, go to notifications, icon:unread" data-hotkey="g n">
+          <span class="mail-status unread"></span>
           <span class="octicon octicon-inbox"></span>
 </a>  </span>
 
@@ -165,7 +165,7 @@
   </li>
 
   <li class="header-nav-item">
-    <form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="YiqounQ9bie5Mp/TJcwB+Nx524BZcSaY40CproAMS4xDngmiLnoc/3ZnSQGOESD8vuSLuYDZWw6Rp01Pux3vXg==" /></div>
+    <form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="56AvGhTZCDAAQLrHSbkM+DoHSS0lkAYk5UJd2MRbNXC+G32vAeFx1fjTZIIowKa4UF0V01LHuOeeXEk+Jbf7Kg==" /></div>
       <button class="header-nav-link sign-out-button tooltipped tooltipped-s" aria-label="Sign out" data-ga-click="Header, sign out, icon:logout">
         <span class="octicon octicon-sign-out"></span>
       </button>
@@ -195,7 +195,7 @@
 <ul class="pagehead-actions">
 
   <li>
-      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="PVqO4rQ5cHuHMc0LiOnALVd2f76iwH9QVu/kGmmsi+B3ZX2FQ4HEQ48aIdtFHpFmN8fQjTPGW3OAXCBFRjgnQw==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="14415541" />
+      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="0S6wpQ1MfkK5HbVnTqpZiI9aJ/GFbu+G42OsBYUzptr5VyPj60wPzJPph8JDpiU3ZR5VQNjuZZaGMjvjUHfb3w==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="14415541" />
 
       <div class="select-menu js-menu-container js-select-menu">
         <a href="/parimew/afkar/subscription"
@@ -270,7 +270,7 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <form accept-charset="UTF-8" action="/parimew/afkar/unstar" class="js-toggler-form starred js-unstar-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="FfWVqWLayLtaELurMnCFfVmq9ROyAuvIGmHJAV7OL5Y+Trj9SEJmKwTzCZ22su4jtO2OtbzhQyjAPL4tDmxKcw==" /></div>
+    <form accept-charset="UTF-8" action="/parimew/afkar/unstar" class="js-toggler-form starred js-unstar-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="PbwI/l5zZnv7YaPmMQwVG3IAG0uOHVuYkkmirPIhg2Od/Knre1ho125VhIW8DODlB0ol4ElnaWfNBZF1KxPN7g==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Unstar this repository" title="Unstar parimew/afkar"
@@ -282,7 +282,7 @@
           0
         </a>
 </form>
-    <form accept-charset="UTF-8" action="/parimew/afkar/star" class="js-toggler-form unstarred js-star-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="YzFP37CPOrjI+/KrIsanE8iWufMiIIzvfZpOY3yPTLRm//CqlUrlOzapASWxcg1kygkNg2vsvDlHCBLsEd/QPg==" /></div>
+    <form accept-charset="UTF-8" action="/parimew/afkar/star" class="js-toggler-form unstarred js-star-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="hmtg5LzWuTxVSKVyy0BWVX0ufZGBMHM396KVJnT5KHb72BY0WMQ0xeeSIwqUdKpLPlxS4HjMc81vMKWzvHUgrA==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Star this repository" title="Star parimew/afkar"
@@ -298,7 +298,7 @@
   </li>
 
         <li>
-          <form accept-charset="UTF-8" action="/parimew/afkar/fork" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="OmKo+DDcIykMVFHUlkhdOtyJe5Fas5VnBS3/DkRVwsOdN1XONgBYFvPdoqjyiomN9qOn1ueIG/PV683rRHAjQw==" /></div>
+          <form accept-charset="UTF-8" action="/parimew/afkar/fork" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ONzlc/mhaAQRuCpW3zBnoOtgTFkbeMp6p4FFnjdlJycxfD0sxsWZTF27Rdt/NYYxvmhYu+DKHD9Q36mxGrj3iQ==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -449,9 +449,9 @@
 
           
 
-<a href="/parimew/afkar/blob/62dadbcea8a22c0412870cce8d5e01ebc168761a/fonts/museo-sans-500-webfont.eot" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/parimew/afkar/blob/62dadbcea8a22c0412870cce8d5e01ebc168761a/fonts/museo-sans-300-webfont.woff" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-<!-- blob contrib key: blob_contributors:v21:81460c7aaf419487c00da7dc9629d058 -->
+<!-- blob contrib key: blob_contributors:v21:006663f66258022b4ef64300c04e8d40 -->
 
 <div class="file-navigation js-zeroclipboard-container">
   
@@ -496,7 +496,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/parimew/afkar/blob/master/fonts/museo-sans-500-webfont.eot"
+               href="/parimew/afkar/blob/master/fonts/museo-sans-300-webfont.woff"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -535,51 +535,68 @@
   </div>
 
   <div class="breadcrumb js-zeroclipboard-target">
-    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/parimew/afkar" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">afkar</span></a></span></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/parimew/afkar/tree/master/fonts" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">fonts</span></a></span><span class="separator">/</span><strong class="final-path">museo-sans-500-webfont.eot</strong>
+    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/parimew/afkar" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">afkar</span></a></span></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/parimew/afkar/tree/master/fonts" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">fonts</span></a></span><span class="separator">/</span><strong class="final-path">museo-sans-300-webfont.woff</strong>
   </div>
 </div>
 
-<include-fragment class="commit commit-loader file-history-tease" src="/parimew/afkar/contributors/master/fonts/museo-sans-500-webfont.eot">
-  <div class="file-history-tease-header">
-    Fetching contributors&hellip;
+
+  <div class="commit file-history-tease">
+    <div class="file-history-tease-header">
+        <img alt="" class="avatar" height="24" src="https://1.gravatar.com/avatar/7647c707a6164cf8e291b5bd7c16c452?d=https%3A%2F%2Fassets-cdn.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&amp;r=x&amp;s=140" width="24" />
+        <span class="author"><span>Mauricio Gelves</span></span>
+        <time datetime="2013-10-02T10:59:50Z" is="relative-time">Oct 2, 2013</time>
+        <div class="commit-title">
+            <a href="/parimew/afkar/commit/322c7a7a63b32d68b8e9155761dff048557ca840" class="message" data-pjax="true" title="no message">no message</a>
+        </div>
+    </div>
+
+    <div class="participation">
+      <p class="quickstat">
+        <a href="#blob_contributors_box" rel="facebox">
+          <strong>0</strong>
+           contributors
+        </a>
+      </p>
+      
+    </div>
+    <div id="blob_contributors_box" style="display:none">
+      <h2 class="facebox-header">Users who have contributed to this file</h2>
+      <ul class="facebox-user-list">
+      </ul>
+    </div>
   </div>
 
-  <div class="participation">
-    <p class="loader-loading"><img alt="" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-EAF2F5-0bdc57d34b85c4a4de9d0d1db10cd70e8a95f33ff4f46c5a8c48b4bf4e5a9abe.gif" width="16" /></p>
-    <p class="loader-error">Cannot retrieve contributors at this time</p>
-  </div>
-</include-fragment>
 <div class="file">
   <div class="file-header">
     <div class="file-actions">
 
       <div class="btn-group">
-        <a href="/parimew/afkar/raw/master/fonts/museo-sans-500-webfont.eot" class="btn btn-sm " id="raw-url">Raw</a>
-        <a href="/parimew/afkar/commits/master/fonts/museo-sans-500-webfont.eot" class="btn btn-sm " rel="nofollow">History</a>
+        <a href="/parimew/afkar/raw/master/fonts/museo-sans-300-webfont.woff" class="btn btn-sm " id="raw-url">Raw</a>
+        <a href="/parimew/afkar/commits/master/fonts/museo-sans-300-webfont.woff" class="btn btn-sm " rel="nofollow">History</a>
       </div>
 
         <a class="octicon-btn tooltipped tooltipped-nw"
-           href="github-windows://openRepo/https://github.com/parimew/afkar?branch=master&amp;filepath=fonts%2Fmuseo-sans-500-webfont.eot"
+           href="github-windows://openRepo/https://github.com/parimew/afkar?branch=master&amp;filepath=fonts%2Fmuseo-sans-300-webfont.woff"
            aria-label="Open this file in GitHub for Windows"
            data-ga-click="Repository, open with desktop, type:windows">
             <span class="octicon octicon-device-desktop"></span>
         </a>
 
 
-          <form accept-charset="UTF-8" action="/parimew/afkar/delete/master/fonts/museo-sans-500-webfont.eot" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="fmdZAr0LmWNXI8YZUIjyJKM7w3hODKMyytk1ytIwokPh2GF0IjUCYxRa6K0bk9Bxg+7cml9bllMi7aW6AjPR5Q==" /></div>
+          <form accept-charset="UTF-8" action="/parimew/afkar/delete/master/fonts/museo-sans-300-webfont.woff" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ZosdlIgiQhGlxEmYxfkiLLmSHPkUMNgPEtciNzWH/KBh3GFYpqi7oVfT3rkK6dnTADVezUdSY8MWAJcDS8nQqQ==" /></div>
             <button class="octicon-btn octicon-btn-danger tooltipped tooltipped-n" type="submit" aria-label="Fork this project and delete this file" data-disable-with>
               <span class="octicon octicon-trashcan"></span>
             </button>
 </form>    </div>
 
     <div class="file-info">
-      23.438 kb
+      26.54 kb
     </div>
   </div>
   
   <div class="blob-wrapper data type-text">
       <div class="image">
-          <a href="/parimew/afkar/blob/master/fonts/museo-sans-500-webfont.eot?raw=true">View Raw</a>
+          <a href="/parimew/afkar/blob/master/fonts/museo-sans-300-webfont.woff?raw=true">View Raw</a>
       </div>
   </div>
 
@@ -618,7 +635,7 @@
       <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2015 <span title="0.09088s from github-fe140-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2015 <span title="0.05238s from github-fe140-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
@@ -660,7 +677,7 @@
 
 
       <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-447ce66a36506ebddc8e84b4e32a77f6062f3d3482e77dd21a77a01f0643ad98.js"></script>
-      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github/index-109e1378a6250ede7d666fc7e98ad795d8e118587572717770ee640e8eb48d80.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github/index-6463092fd81f779e2203f0305a794f3943e9be1a76ec8b98865160d2d69df910.js"></script>
       
       
   </body>
