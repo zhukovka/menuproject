@@ -543,6 +543,11 @@ a.icon {
     color: #fff;
 }
 
+.autoplay{
+    display: inline-block;
+    position: relative;
+}
+
 .animatedleft{
     display: inline-block;
     -webkit-animation: swipe 3s linear;
