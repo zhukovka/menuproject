@@ -226,7 +226,7 @@ header {
     font-size: 2.5em;
 }
 
-.logo > span > span {
+.menu-logo {
     font-size: 0.5em;
 }
 
@@ -543,7 +543,7 @@ a.icon {
     color: #fff;
 }
 
-.animated-left{
+.animatedleft{
     display: inline-block;
     -webkit-animation: swipe 3s linear;
     animation: swipe 3s linear;
@@ -593,7 +593,7 @@ a.icon {
    
 }
 /*@media screen and (max-width: 980px)*/
-@media screen and (max-width: 780px){
+@media screen and (max-width: 992px){
     
     .column-50 {
         width: 100%;
@@ -604,5 +604,77 @@ a.icon {
 
     .nav-icon:active + nav, .nav-icon:focus + nav{
         width: 75%;
+    }
+
+    .logo {
+        width: 80%;
+
+    }
+
+    .logo .icon-food {
+        height: 170px;
+        width: 170px;
+        margin-bottom: 20px;
+    }
+
+    /*.logo .icon-food:before {
+        font-size: 1.7em;
+    }*/
+
+    h1.heading {
+        font-size: 150%;
+    }
+
+    .menu-logo {
+    font-size: 1em;
+    position: absolute;
+    top: 20px;
+    transform: translate(-50%,0);
+    }
+}
+
+/*tablets*/
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+    h1.heading.logo {
+        position: absolute;
+        width: 100%;
+        top: 30%;
+        padding: 0;
+    }
+
+    .animatedleft {
+        width: 80%;
+    }
+}
+
+/*phones*/
+@media screen and (min-device-width: 414px) and (max-device-width: 767px) and (orientation: portrait) {
+
+    h1.heading.logo {
+        position: absolute;
+        width: 100%;
+        top: 20%;
+        padding: 0;
+    }
+
+    .animatedleft {
+        width: 80%;
+    }
+}
+
+@media screen and (max-device-height: 480px) {
+    .offers {
+        height: 100px;
+    }
+
+    .offers a.heading-regular_text {
+        line-height: 50px;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape) {
+    .offers {
+        position: static;
     }
 }
