@@ -1,366 +1,288 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Menu</title>
+	<link rel="stylesheet" href="assets/icomoon(info)/style.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/animate.css">
+	<link rel="stylesheet" href="assets/slider/slider.css">
+	<link href='assets/tabulous.css' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="assets/icomoon/style.css">
+	<link rel="stylesheet" href="assets/icomoon(up)/style.css">
+	<link rel="stylesheet" href="assets/icomoon(mobileUp)/style.css">
+	<link rel="stylesheet" href="assets/fonts.css">
+	<link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
 	<link rel="stylesheet" href="assets/style.css">
+	<script src="assets/slider/thumbnail-slider.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+	<script>
+	 new WOW().init();
+	</script>
 </head>
 <body>
-	<header id="main_page">
-		<nav class="navigation">
-			<a href="javascript:void(0);" class="main-item">	
-				<img src="assets/images/header_menu.png" alt="" class="dropdown_list">
-			</a>			
+	<a href="#header" class="anchor anchor_up"><span class="icon-circle-up"></span></a>
+	<!-- <a href="#header" class="anchor anchor_mobileUp"><span class="icon-chevron-up"></span></a> -->
+	<header class="container" id="header">
+		<div class="swipe-area"></div>
+		<a href="#" data-toggle=".container" id="sidebar-toggle" class="nav-icon fa fa-bars"></a>
+		<nav id="sidebar">
 			<ul>
-				<li><a href="#fast-food">Fast Food</a></li>
-				<li><a href="#drinks">Drinks</a></li>
-				<li><a href="#menu">Menu</a></li>
-				<li><a href="#company">Our company</a></li>
-				<li><a href="#contacts">Contacts</a></li>
+				<li class="description"><span class="icon-food"></span>MENU</li>
+				<li><a href="#free_eat" class="anchor">Happy Hour</a></li>
+				<li><a href="#fast-food" class="anchor">Fast Food</a></li>
+				<li><a href="#drinks" class="anchor">Drinks</a></li>
+				<li><a href="#full_menu" class="anchor">Our full menu</a></li>
+				<li class="description"><span class="icon-info"></span>Information</li>
+				<li><a href="#subscribe" class="anchor">Our Customers</a></li>
+				<li><a href="#subscribe" class="anchor">Subscribe</a></li>
+				<li><a href="#footer" class="anchor">Contacts</a></li>
+
+
 			</ul>
 		</nav>
-		<div class="">
-			<!-- top image -->
 			<div class="banner">
-				<img src="assets/images/logo.png" alt="" class="header_logo_image">
-				<h1 class="heading logo">
-					<span class="heading-light_text">We provide the best Food At the</span> Right Price
-				</h1>
+				<div class="transparent-orange">
+					<h1 class="heading logo">
+						<span class="icon-food orange-text wow animated-top"><span class="aleo-bold-text menu-logo">MENU</span></span>
+						<span class="animatedleft">
+							<span class="heading-light_text">We provide the best food at the</span> right price
+						</span>
+					</h1>
+				</div>
 			</div>
-			<div class="offers table-view">
-				<div class="table-cell-view-25">
-					<div class="table_cell_first">
-						<a href="" class="heading">Happy hour</a>
-					</div>
-					<div class="table_cell_first">
-						<a href="" class="heading">Party time</a>
-					</div>
-				</div>
-				
-				<div class="table-cell-view-25">
-					<div class="otherBlock">
-						<a href="" class="heading heading-italic_text">Breakfast</a>
-					</div>
-				</div>
-				<div class="table-cell-view-25">
-					<div class="otherBlock"><a href="" class="heading-italic_text heading">Lunch</a></div>
-				</div>
-				<div class="table-cell-view-25">
-					<div class="otherBlock"><a href="" class="heading heading-italic_text">Dinner</a></div>
-				</div>
-			</div><!-- /.offers -->
-		</div>
+
+
+
 	</header>
-	<div class="move_to_up">
-		<a href="#main_page"><img src="assets/images/up.png" alt=""></a></div>
-	<section>
-		<article id="fast-food">
-			<div class="section_image_block">
-				<img src="assets/images/fastfood.jpg" alt="">
+	<div class="offers table-view" id="free_eat">
+		<div class="table-cell-view-25">
+			<div class="table-cell-top">
+				<a href="#" class="heading-regular_text gray-text">Happy hour</a>
 			</div>
-			<div  class="section_content_block">
-				<h1 class="heading">Fast Food</h1>
-				<h2 class="heading">You'll love our delicous fast food</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisic
-					ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce
-					teur sint occaecat cupi datat non proident
-				</p>
-				<button>View Gallery &rarr;</button>
+			<div class="table-cell-bottom">
+				<a href="#" class="heading-regular_text white-text">Party time</a>
+			</div>
+		</div>
+		<div class="table-cell-view-25 hidden-xs">
+			<div class="other-block-1">
+				<div class="transparent-black">
+					<a href="#" class="heading-full-height heading-italic_text white-text">Breakfast</a>
+				</div>
+			</div>
+		</div>
+		<div class="table-cell-view-25 hidden-xs">
+			<div class="other-block-2">
+				<div class="transparent-black">
+					<a href="#" class="heading-full-height heading-italic_text white-text">Lunch</a>
+				</div>
+			</div>
+		</div>
+		<div class="table-cell-view-25 hidden-xs">
+			<div class="other-block-3">
+				<div class="transparent-black">
+					<a href="#" class="heading-full-height heading-italic_text white-text">Dinner</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="content-80 gray-text">
+		<article id="fast-food">
+			<div class="column-50">
+				<div class="img-frame">
+					<img class="img-size" src="assets/images/article-1.png" alt="Fast food">
+				</div>
+			</div>
+			<div class="column-50">
+				<div class="fast-food-text">
+					<h1 class="heading">Fast Food</h1>
+					<h2 class="heading">You'll love our delicous fast food</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisic
+						ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce
+						teur sint occaecat cupi datat non proident
+					</p>
+					<button class="wow animated rollIn">View Gallery &rarr;</button>
+				</div>
 			</div>
 		</article>
 		<article id="drinks">
-			<div class="section_content_block">
-				<h1 class="heading">Drinks</h1>
-				<h2 class="heading">We also produce delicious drinks</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisic
-					ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce
-					teur sint occaecat cupi datat non proident
-				</p>
-				<button>View Gallery &rarr;</button>
+			<div class="column-50">
+				<div class="drinks-text">
+					<h1 class="heading">Drinks</h1>
+					<h2 class="heading">We also produce delicious drinks</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisic
+						ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce
+						teur sint occaecat cupi datat non proident
+					</p>
+					<button  class="wow animated rollIn">View Gallery &rarr;</button>
+				</div>
 			</div>
-			<div class="section_image_block">
-				<img src="assets/images/drinks.jpg" alt="">
+			<div class="column-50">
+				<div class="img-frame">
+					<img class="img-size" src="assets/images/article-2.png" alt="Fast food">
+				</div>
 			</div>
 		</article>
 	</section>
-	<div class="view_food">
-		<div class="tabs" id="menu">
-			<ul>
-				<li>
-					<a href="" class="first_tabs">Fast Food</a>
-					<div class="list_slider">
-						<a href="#" class="arrow_left"></a>
-						<figure>
-							<img src="assets/images/chiken_burger.jpg" alt="">
-							<figcaption>Chicken Burger</figcaption>
-						</figure>
-						<figure>
-							<img src="assets/images/beef_burger.jpg" alt="">
-							<figcaption>Beef Burger</figcaption>
-						</figure>
-						<figure>
-							<img src="assets/images/chiken_pizza.jpg" alt="">
-							<figcaption>Pizza</figcaption>
-						</figure>
-						<a href="#" class="arrow_right"></a>
-					</div>
-				</li>
-<!-- 				<li>
-					<a href="" class="second_tabs">Drinks</a>
-					<div class="list_slider">
-						<img src="#" alt="">
-						<img src="#" alt="">
-						<img src="#" alt="">
-					</div>
-				</li>
-				<li>
-					<a href="" class="third_tabs">Chiken</a>
-					<div class="list_slider">
-						<img src="#" alt="">
-						<img src="#" alt="">
-						<img src="#" alt="">
-					</div>
-				</li>
-				<li>
-					<a href="" class="four_tabs">Rice</a>
-					<div class="list_slider">
-						<img src="#" alt="">
-						<img src="#" alt="">
-						<img src="#" alt="">
-					</div>
-				</li> -->
-			</ul>
+<!--TABS-->	
+	<div class="bg-tabs" id="full_menu">
+		<div class="transparent-black">
+			<div class="main-tabs">
+				<div id="tabs">
+					<ul>
+						<li><a href="#tabs-1" title="">Fast Food</a></li>
+						<li><a href="#tabs-2" title="">Drinks</a></li>
+						<li><a href="#tabs-3" title="">Chicken</a></li>
+						<li><a href="#tabs-4" title="">Rice</a></li>
+					</ul>
+					<div id="tabs_container">
+						<div id="tabs-1" class="gray-text">
+							<span class="slider-controls" data-controls="left"><img src="assets/images/prev_arrow.gif" height="23" width="13" alt=""></span>	
+							<ul class="autoplay orange-text museo-700-text">
+								
+								<li class="item">
+								<img src="assets/images/chiken_burger.jpg" height="220" width="280" alt=""><span  class="text_decor">Chicken Burger</span>
+								</li>
+								<li class="item">
+								<img src="assets/images/beef_burger.jpg" height="220" width="280" alt=""><span class="text_decor">Beef Burger</span>
+								</li>
+								<li class="item">
+								<img src="assets/images/chiken_pizza.jpg" height="220" width="280" alt=""><span class="text_decor">Chicken Pizza</span>
+								</li>
+								<li class="item">
+								<img src="assets/images/beef_burger.jpg" height="220" width="280" alt=""><span class="text_decor">Beef Burger</span>
+								</li>
+								
+							</ul>
+							<span class="slider-controls right_arrow" data-controls="right"><img src="assets/images/next_arrow.gif" height="23" width="13" alt=""></span>
+						</div>
+						<div id="tabs-2" class="gray-text">
+							tab 2
+						</div>
+						<div id="tabs-3" class="gray-text">
+							 tab3
+						</div>
+						<div id="tabs-4" class="gray-text">
+							 tab4
+						</div>
+					</div><!--End tabs container-->	
+				</div><!--End tabs-->
+			</div>
 		</div>
 	</div>
-	<section>
-		<div id="company">
-			<div class="our_customers">
-				<h2>Our Happy Customers</h2>
-				<h3>George Richard</h3>
-				<p>
-					Great food! Menu is awesome, there foods, 
-					are not only great, but also in the right 
-					price. I'll highly recommend them :)
-				</p>
-				<div class="persons_slider">
-				    <a href="#" class="arrow_left"></a>
-					<i class="team_portrait"></i>
-					<i class="team_portrait_two"></i>
-					<i class="team_portrait_three"></i>
-					<a href="#" class="arrow_right"></a>
+<!--TABS END-->	
+<!--HAPPY CUSTOMERS-->	
+	<div id="" class="happy-customers">
+		<div class="content-80 happy-customers-out-box">
+			<div class="happy-customers-in-box">
+				<div class="recall">
+					<p class="orange-text font-125 aleo-bold-text">Our Happy Customers</p>
+					<div class="operation_manage">
+						<ul id="mcts1">	
+							<li><a href="#"><img src="assets/images/person1.png" alt=""></a></li>
+							<li><a href="#"><img src="assets/images/person2.png" alt=""></a></li>
+							<li><a href="#"><img src="assets/images/person3.png" alt=""></a></li>
+							<li><a href="#"><img src="assets/images/person3.png" alt=""></a></li>
+							<li><a href="#"><img src="assets/images/person3.png" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="about-menu">
+					<p class="orange-text font-125 aleo-bold-text">About Menu</p>
+					<p class="gray-text">We are menu a little team of 7 members. Ut wisi enim ad minim veniam, quis nos trudexer ci tation ullamcorper suscipit lob ortis nisl ut aliquip ex ea commodo conse quat. Duisau tem vel eum iriure dolor in</p>
 				</div>
 			</div>
-			<div class="about">
-				<h2>About Menu</h2>
-				<p>
-					We are menu a little team of 7 members. Ut wisi enim ad minim veniam, quis nos
-					trudexer ci tation ullamcorper suscipit lob
-					ortis nisl ut aliquip ex ea commodo conse
-					quat. Duisau tem vel eum iriure dolor in.
-				</p>
+		</div>
+	</div>
+<!--HAPPY CUSTOMERS END-->	
+<!--SUBSCRIBE-->	
+	<div id="subscribe" class="subscribe">
+		<div class="transparent-black">
+			<div class="content-80">
+				<div class="heading align-center">
+					Get our daily food items delivered to your email
+				</div>
+				<div class="button-and-input align-center">
+					<input class="font-125 museo-500-text" type="text" placeholder="Your email">
+					<button class="font-125 museo-500-text">Subscribe</button>
+				</div>
 			</div>
 		</div>
-	</section>
-	<div id="contacts">
-		<h2>Get our daily food items delivered to your email</h2>
-		<input type="text" placeholder="Your email">
-		<button>Subscribe</button>
 	</div>
-	<footer>
-		<div class="footer_block">
-			<img src="assets/images/footer_logo.png" alt="" class="footer_logo">
-			<h3>Thats What We Are</h3>
-			<a href="#" class="social_sprite_one"></a>
-			<a href="#" class="social_sprite_two"></a>
-			<a href="#" class="social_sprite_three"></a>
-			<p>&copy 2014 Menu Restaurant</p>
+<!--SUBSCRIBE END-->
+<!--FOOTER-->
+	<footer id="footer">
+		<div class="content-20-fixed footer">
+			<div class="white-text font-250 aleo-regular-text">
+				<a href="#" title="" class="footer-first-line"><span class="icon-food"></span> MENU</a>
+			</div>
+			<div class="white-text font-125 footer-second-line">
+				Thats What We Are
+			</div>
+			<div class="white-text footer-icons-line">
+				<a href="#" title="" class="icon"><i class="fa fa-facebook-square"></i></a>
+				<a href="#" title="" class="icon"><i class="fa fa-twitter-square"></i></a>
+				<a href="#" title="" class="icon"><i class="fa fa-pinterest-square"></i></a>
+			</div>
+			<div class="dark-orange-text museo-700-text">
+				&copy; 2014 Menu Restaurant
+			</div>
 		</div>
 	</footer>
+<!--FOOTER END-->
+	<script type="text/javascript" src="assets/js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="assets/tabulous.min.js"></script>
+	<script src="assets/slick/slick.min.js"></script>
+	<script src="assets/js/sliders.js"></script>
+	<script src="assets/js/jquery.touchSwipe.min.js"></script>
+	<script>
+		$(document).ready(function ($) {
+  			Accordion.init();
+		    $('#tabs').tabulous({effect: 'scale'});
+		    $('#tabs_container').height(300);
+  			$('.autoplay').height(300).sideSlideAnimation({
+  				controls:true,
+  			});
+  			$('.tabulousclear').remove();
+
+  			$(document).ready(function() {
+  			  $("[data-toggle]").click(function() {
+  			    var toggle_el = $(this).data("toggle");
+  			    $(toggle_el).toggleClass("open-sidebar");
+  			  });
+  			});
+		});	
+		$(".swipe-area").swipe({
+		    swipeStatus:function(event, phase, direction, distance, duration, fingers)
+		        {
+		            if (phase=="move" && direction =="right") {
+		                 $(".container").addClass("open-sidebar");
+		                 return false;
+		            }
+		            if (phase=="move" && direction =="left") {
+		                 $(".container").removeClass("open-sidebar");
+		                 return false;
+		            }
+		        }
+		});
+		$("body").on("click", "a.anchor", function(){
+		    var idtop = $($(this).attr("href")).offset().top;
+		    $('html,body').animate({scrollTop: idtop}, 700);
+		    return false;
+		});
+		jQuery(function(f){
+		    var element = f('.anchor_up');
+		    f(window).scroll(function(){
+		        element['fade'+ (f(this).scrollTop() > 200 ? 'In': 'Out')](500);           
+		    });
+		});
+	</script>
+  			
 </body>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Menu</title>
-	<link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
-	<header id="main_page">
-		<nav class="navigation">
-			<a href="javascript:void(0);" class="main-item">	
-				<img src="assets/images/header_menu.png" alt="" class="dropdown_list">
-			</a>			
-			<ul>
-				<li><a href="#fast-food">Fast Food</a></li>
-				<li><a href="#drinks">Drinks</a></li>
-				<li><a href="#menu">Menu</a></li>
-				<li><a href="#company">Our company</a></li>
-				<li><a href="#contacts">Contacts</a></li>
-			</ul>
-		</nav>
-		<div class="">
-			<!-- top image -->
-			<div class="banner">
-				<img src="assets/images/logo.png" alt="" class="header_logo_image">
-				<h1 class="heading logo">
-					<span class="heading-light_text">We provide the best Food At the</span> Right Price
-				</h1>
-			</div>
-			<div class="offers table-view">
-				<div class="table-cell-view-25">
-					<div class="table_cell_first">
-						<a href="" class="heading">Happy hour</a>
-					</div>
-					<div class="table_cell_first">
-						<a href="" class="heading">Party time</a>
-					</div>
-				</div>
-				
-				<div class="table-cell-view-25">
-					<div class="otherBlock">
-						<a href="" class="heading heading-italic_text">Breakfast</a>
-					</div>
-				</div>
-				<div class="table-cell-view-25">
-					<div class="otherBlock"><a href="" class="heading-italic_text heading">Lunch</a></div>
-				</div>
-				<div class="table-cell-view-25">
-					<div class="otherBlock"><a href="" class="heading heading-italic_text">Dinner</a></div>
-				</div>
-			</div><!-- /.offers -->
-		</div>
-	</header>
-	<div class="move_to_up">
-		<a href="#main_page"><img src="assets/images/up.png" alt=""></a></div>
-	<section>
-		<article id="fast-food">
-			<div class="section_image_block">
-				<img src="assets/images/fastfood.jpg" alt="">
-			</div>
-			<div  class="section_content_block">
-				<h1 class="heading">Fast Food</h1>
-				<h2 class="heading">You'll love our delicous fast food</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisic
-					ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce
-					teur sint occaecat cupi datat non proident
-				</p>
-				<button>View Gallery &rarr;</button>
-			</div>
-		</article>
-		<article id="drinks">
-			<div class="section_content_block">
-				<h1 class="heading">Drinks</h1>
-				<h2 class="heading">We also produce delicious drinks</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisic
-					ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce
-					teur sint occaecat cupi datat non proident
-				</p>
-				<button>View Gallery &rarr;</button>
-			</div>
-			<div class="section_image_block">
-				<img src="assets/images/drinks.jpg" alt="">
-			</div>
-		</article>
-	</section>
-	<div class="view_food">
-		<div class="tabs" id="menu">
-			<ul>
-				<li>
-					<a href="" class="first_tabs">Fast Food</a>
-					<div class="list_slider">
-						<a href="#" class="arrow_left"></a>
-						<figure>
-							<img src="assets/images/chiken_burger.jpg" alt="">
-							<figcaption>Chicken Burger</figcaption>
-						</figure>
-						<figure>
-							<img src="assets/images/beef_burger.jpg" alt="">
-							<figcaption>Beef Burger</figcaption>
-						</figure>
-						<figure>
-							<img src="assets/images/chiken_pizza.jpg" alt="">
-							<figcaption>Pizza</figcaption>
-						</figure>
-						<a href="#" class="arrow_right"></a>
-					</div>
-				</li>
-<!-- 				<li>
-					<a href="" class="second_tabs">Drinks</a>
-					<div class="list_slider">
-						<img src="#" alt="">
-						<img src="#" alt="">
-						<img src="#" alt="">
-					</div>
-				</li>
-				<li>
-					<a href="" class="third_tabs">Chiken</a>
-					<div class="list_slider">
-						<img src="#" alt="">
-						<img src="#" alt="">
-						<img src="#" alt="">
-					</div>
-				</li>
-				<li>
-					<a href="" class="four_tabs">Rice</a>
-					<div class="list_slider">
-						<img src="#" alt="">
-						<img src="#" alt="">
-						<img src="#" alt="">
-					</div>
-				</li> -->
-			</ul>
-		</div>
-	</div>
-	<section>
-		<div id="company">
-			<div class="our_customers">
-				<h2>Our Happy Customers</h2>
-				<h3>George Richard</h3>
-				<p>
-					Great food! Menu is awesome, there foods, 
-					are not only great, but also in the right 
-					price. I'll highly recommend them :)
-				</p>
-				<div class="persons_slider">
-				    <a href="#" class="arrow_left"></a>
-					<i class="team_portrait"></i>
-					<i class="team_portrait_two"></i>
-					<i class="team_portrait_three"></i>
-					<a href="#" class="arrow_right"></a>
-				</div>
-			</div>
-			<div class="about">
-				<h2>About Menu</h2>
-				<p>
-					We are menu a little team of 7 members. Ut wisi enim ad minim veniam, quis nos
-					trudexer ci tation ullamcorper suscipit lob
-					ortis nisl ut aliquip ex ea commodo conse
-					quat. Duisau tem vel eum iriure dolor in.
-				</p>
-			</div>
-		</div>
-	</section>
-	<div id="contacts">
-		<h2>Get our daily food items delivered to your email</h2>
-		<input type="text" placeholder="Your email">
-		<button>Subscribe</button>
-	</div>
-	<footer>
-		<div class="footer_block">
-			<img src="assets/images/footer_logo.png" alt="" class="footer_logo">
-			<h3>Thats What We Are</h3>
-			<a href="#" class="social_sprite_one"></a>
-			<a href="#" class="social_sprite_two"></a>
-			<a href="#" class="social_sprite_three"></a>
-			<p>&copy 2014 Menu Restaurant</p>
-		</div>
-	</footer>
-</body>
->>>>>>> 91bf19c385a128d296e0f0df70d40f9ce0ac6cd1
 </html>
