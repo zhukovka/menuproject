@@ -8,19 +8,18 @@
 	<link rel="stylesheet" href="assets/animate.css">
 	<link rel="stylesheet" href="assets/icomoon/style.css">
 	<link rel="stylesheet" href="assets/fonts.css">
+	<link href='assets/tabulous.css' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="assets/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
-	<link href='assets/tabulous.css' rel='stylesheet' type='text/css'>
-	
 	<script src="assets/js/wow.min.js"></script>
 	<script>
-	 new WOW().init();
+		new WOW().init();
 	</script>
 </head>
 <body>
 	<header>
-		
+		<!--NAVIGATION-->
 		<a href="javascript:void(0);" class="nav-icon fa fa-bars"></a>
 		<nav class="navigation">
 			<ul>
@@ -30,24 +29,26 @@
 				<li><a href="#subscribe">Subscribe</a></li>
 			</ul>
 		</nav>
-
+		<!--NAVIGATION END-->
+		<!--BANNER-->
 		<div class="">
-
 			<div class="banner">
 				<div class="transparent-orange">
 					<h1 class="heading logo">
-						<span class="icon-food orange-text wow animated-top"><span class="aleo-bold-text menu-logo">MENU</span></span>
-						<span class="animatedleft">
+						<div class="logo-round animated-top">
+							<span class="aleo-bold-text orange-text menu-logo">MENU</span>
+							<span class="icon-food orange-text"></span>
+						</div>
+						<span class="logo-text animatedleft">
 							<span class="heading-light_text">We provide the best food at the</span> right price
 						</span>
 					</h1>
 				</div>
 			</div>
-
-
 		</div>
-
+		<!--BANNER END-->
 	</header>
+<!--MENU-->
 	<div class="offers table-view">
 		<div class="table-cell-view-25">
 			<div class="table-cell-top">
@@ -57,21 +58,21 @@
 				<a href="#" class="heading-regular_text white-text">Party time</a>
 			</div>
 		</div>
-		<div class="table-cell-view-25 hidden-xs">
+		<div class="table-cell-view-25">
 			<div class="other-block-1">
 				<div class="transparent-black">
 					<a href="#" class="heading-full-height heading-italic_text white-text">Breakfast</a>
 				</div>
 			</div>
 		</div>
-		<div class="table-cell-view-25 hidden-xs">
+		<div class="table-cell-view-25">
 			<div class="other-block-2">
 				<div class="transparent-black">
 					<a href="#" class="heading-full-height heading-italic_text white-text">Lunch</a>
 				</div>
 			</div>
 		</div>
-		<div class="table-cell-view-25 hidden-xs">
+		<div class="table-cell-view-25">
 			<div class="other-block-3">
 				<div class="transparent-black">
 					<a href="#" class="heading-full-height heading-italic_text white-text">Dinner</a>
@@ -79,7 +80,8 @@
 			</div>
 		</div>
 	</div>
-
+<!--MENU END-->
+<!--POSTS-->
 	<section class="content-80 gray-text">
 		<article id="fast-food">
 			<div class="column-50">
@@ -96,11 +98,16 @@
 						ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce
 						teur sint occaecat cupi datat non proident
 					</p>
-					<button class="wow animated rollIn">View Gallery &rarr;</button>
+					<button>View Gallery &rarr;</button>
 				</div>
 			</div>
 		</article>
 		<article id="drinks">
+			<div class="column-50-right">
+				<div class="img-frame">
+					<img class="img-size" src="assets/images/article-2.png" alt="Fast food">
+				</div>
+			</div>
 			<div class="column-50">
 				<div class="drinks-text">
 					<h1 class="heading">Drinks</h1>
@@ -113,13 +120,10 @@
 					<button>View Gallery &rarr;</button>
 				</div>
 			</div>
-			<div class="column-50">
-				<div class="img-frame">
-					<img class="img-size" src="assets/images/article-2.png" alt="Fast food">
-				</div>
-			</div>
+			
 		</article>
 	</section>
+<!--POSTS END-->
 <!--TABS-->	
 	<div class="bg-tabs">
 		<div class="transparent-black">
@@ -134,21 +138,6 @@
 					<div id="tabs_container">
 						<div id="tabs-1" class="gray-text">
 							tabs 1
-							<!-- <div class="autoplay orange-text museo-700-text">
-								<div>
-								<img src="assets/images/article-1.png" alt=""><span>Chicken Burger</span>
-								</div>
-								<div>
-								<img src="assets/images/article-1.png" alt=""><span>Chicken Burger</span>
-								</div>
-								<div>
-								<img src="assets/images/article-1.png" alt=""><span>Chicken Burger</span>
-								</div>
-								<div>
-								<img src="assets/images/article-1.png" alt=""><span>Chicken Burger</span>
-								</div>
-								
-							</div> -->
 						</div>
 						<div id="tabs-2" class="gray-text">
 							tab 2
@@ -161,30 +150,42 @@
 						</div>
 					</div><!--End tabs container-->	
 				</div><!--End tabs-->
+				<!-- <div class="autoplay orange-text museo-700-text">
+					<div>
+						<img src="assets/images/item-1.jpg" alt=""><span>Chicken Burger</span>
+					</div>
+					<div>
+						<img src="assets/images/item-2.jpg" alt=""><span>Chicken Burger</span>
+					</div>
+					<div>
+						<img src="assets/images/item-3.jpg" alt=""><span>Chicken Burger</span>
+					</div>
+					<div>
+						<img src="assets/images/item-1.jpg" alt=""><span>Chicken Burger</span>
+					</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
 <!--TABS END-->	
 <!--HAPPY CUSTOMERS-->	
-	<!-- <div id="customers-recalls" class="happy-customers">
-		<div class="content-80 happy-customers-out-box">
-			<div class="happy-customers-in-box">
-				<div class="recall">
-					<p class="orange-text font-125 aleo-bold-text">Our Happy Customers</p>
-				</div>
-				<div class="about-menu">
-					<p class="orange-text font-125 aleo-bold-text">About Menu</p>
-					<p class="gray-text">We are menu a little team of 7 members. Ut wisi enim ad minim veniam, quis nos trudexer ci tation ullamcorper suscipit lob ortis nisl ut aliquip ex ea commodo conse quat. Duisau tem vel eum iriure dolor in</p>
-				</div>
+	<div id="customers-recalls" class="happy-customers">
+		<div class="content-80 happy-customers-in-box">
+			<div class="recall">
+				<p class="orange-text font-125 aleo-bold-text">Our Happy Customers</p>
+			</div>
+			<div class="about-menu">
+				<p class="orange-text font-125 aleo-bold-text">About Menu</p>
+				<p class="gray-text">We are menu a little team of 7 members. Ut wisi enim ad minim veniam, quis nos trudexer ci tation ullamcorper suscipit lob ortis nisl ut aliquip ex ea commodo conse quat. Duisau tem vel eum iriure dolor in</p>
 			</div>
 		</div>
-	</div> -->
+	</div>
 <!--HAPPY CUSTOMERS END-->	
 <!--SUBSCRIBE-->	
 	<div id="subscribe" class="subscribe">
 		<div class="transparent-black">
 			<div class="content-80">
-				<div class="heading align-center">
+				<div class="heading align-center subscribe-text">
 					Get our daily food items delivered to your email
 				</div>
 				<div class="button-and-input align-center">
@@ -222,9 +223,10 @@
 	<script>
 		$(document).ready(function ($) {
 		    $('#tabs').tabulous({effect: 'scale'});	
-  			
+		    $('.autoplay').slick({
+				slidesToShow: 3,
+			});
 		});
-	</script>
-  			
+	</script>	
 </body>
 </html>
