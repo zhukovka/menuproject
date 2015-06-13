@@ -389,6 +389,11 @@ article button:hover {
 }
 
 /*-----------------TABS-----------------*/
+
+li {
+    list-style-type: none;
+}
+
 .bg-tabs {
     background: url(images/bg-tabs.jpg);
     background-repeat: no-repeat;
@@ -678,3 +683,5 @@ a.icon {
         position: static;
     }
 }
+
+
