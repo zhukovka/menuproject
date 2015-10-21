@@ -2,111 +2,233 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Menu</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Home - Anastasiia Nos </title>
+	<link rel="stylesheet" href="assets/fonts.css">
 	<link rel="stylesheet" href="assets/style.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=La+Belle+Aurore' rel='stylesheet' type='text/css'>
+ 	<script async="" src="http://www.google-analytics.com/analytics.js"></script>
+ 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ 	<script type="text/javascript" src="assets/js/accordion.js"></script>	
+ 	<script type="text/javascript" src="assets/js/respond.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 </head>
+
+  <!--BODY STARTS-->
+
 <body>
-	<header>
-		<nav class="navigation">
-			<ul>
-				<li><a href="#fast-food">Fast-food</a></li>
-				<li><a href="#Drinks">Drinks</a></li>
-				<li><a href="#Subscribe">Subscribe</a></li>
-				<li><a href="#Contacts">Contacts</a></li>
-			</ul>
-		</nav>
-		<div class="">
-			<!-- top image -->
-			<div class="banner"> 
-				<h1 class="heading logo">
-					<img src="assets/images/logo2.png" width="200" height="200"> <br><span class="heading-light_text">We provide the best Food At the</span> Right Price
-				</h1>
+<header>
+<!--Navigation 
+Хотела использовать статическую навагацию из бутстрапа, она нависала сверху и не сворачивалась/разворачивалась-->
+
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">AN</a>
+    </div>
+
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!--Navigation ends-->
+
+<!--Banner-->
+
+<article class="caption">
+	<img class="caption__media" src="assets/images/photo1.jpg">
+		<div class="caption__overlay cursive-text_white">
+			<div class="caption__overlay__title"> 
+				Hi! My name is Anastasia
+				<div class="caption__overlay__content "> I'm looking for a 
+					<span class=""> Junior Web Developer Job </span>
+				</div> 
 			</div>
-			<div class="offers table-view">
-				<div class="table-cell-view-25">
-					<div>
-						<a href="" class="heading" style="color:#4b4b4b" >Happy hour</a>
+		</div> 
+</article>
+</header>
+
+<!--ABOUT-->
+
+<div class="about" id="About">
+	<p class="cursive-text"> Some facts about <span class="grow">me</span></p>
+	<table class="table">
+			<div class="table-row ">
+				<div class="offers table-view">
+					<div class="table-cell-view-33 ">
+		  				<div class="grow table-cell-top">
+		  					<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+						</div>
+						<div class="table-cell-bottom">
+				 			Love Travelling  
+						</div>
 					</div>
-					<div class="orange">
-						<a href="" class="heading" style="color:#ffffff" >Party time</a>
-					</div>
-				</div>
 				
-				<div class="table-cell-view-25">
-					<div class="picture-breakfast" height="100%" >
-						<a href="" class="heading heading-italic_text" >Breakfast</a>
+					<div class="table-cell-view-33">
+		  				<div class="grow table-cell-top">
+				 			 <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> 
+						</div>
+		  				<div class="table-cell-bottom">
+				 			Effective team player 
+						</div>
+					</div>
+
+					<div class="table-cell-view-33">
+		  				<div class="grow table-cell-top">
+				 			<span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+						</div>
+
+						<div class="table-cell-bottom">
+				 			have an eye for details
+						</div>
 					</div>
 				</div>
-				<div class="table-cell-view-25">
-					<div class="picture-lunch"><a href="" class="heading-italic_text heading">Lunch</a></div>
-				</div>
-				<div class="table-cell-view-25 otherBlock">
-					<div class="picture-dinner" ><a href="" class="heading heading-italic_text">Dinner</a></div>
-				</div>
-			</div><!-- /.offers -->
+			</div>
+		<div class="table-row">
+			<div class="offers table-view">
+					<div class="table-cell-view-33">
+		  				<div class="grow table-cell-top">
+		  					<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+						</div>
+						<div class="table-cell-bottom">
+				 			Interested in UI/UX
+						</div>
+					</div>
+				
+					<div class="table-cell-view-33">
+		  				<div class="grow table-cell-top">
+				 			  <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"> </span>
+						</div>
+		  				<div class="table-cell-bottom">
+				 			Make Scetches and Paintings
+						</div>
+					</div>
+					<div class="table-cell-view-33">
+		  				<div class="grow table-cell-top">
+				 			<span class="glyphicon glyphicon-link" aria-hidden="true"></span> 
+						</div>
+						<div class="table-cell-bottom">
+				 			Believe in brainstorming
+						</div>
+					</div>
+			</div>
 		</div>
-		
-	</header>
-	<section>
-		<article id="fast-food">
-			<div class="fast-food_picture"><img src="assets/images/fastfood.jpg"  width="400" height="350" alt=""></div>
-			<div>
-				<h1 class="heading">Fast Food</h1>
-				<h2 class="heading">You'll love our delicous fast food</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisic
-					ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce
-					teur sint occaecat cupi datat non proident
-				</p>
-				<button>View Gallery &rarr;</button>
-			</div>
-		</article>
-		<article>
-			<div class="dinner_picture"><img src="assets/images/drinks.jpg" width="400" height="350" alt=""></div>
-			<div>
-				<h1 class="heading">Drinks</h1>
-				<h2 class="heading">We also produce delicious drinks</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisic
-					ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce
-					teur sint occaecat cupi datat non proident
-				</p>
-				<button>View Gallery &rarr;</button>
-			</div>
-		</article>
-	</section>
-	<div class="tabs">
-		<ul>
-			<li>
-				<div class="list_slider">
-					<img src="#" alt="">
-					<img src="#" alt="">
-					<img src="#" alt="">
+	</table>
+
+	<!--Parallax part starts-->
+
+
+
+	<div class="parallax">
+		<p class="cursive-text_white">  I can help <span class="grow"> you </span> with </p>
+			<table class="table">
+				<div class="table-row">
+					<div class=" col-md-4 col-xs-6">
+						<div class="button">		  					
+						 HTML/CSS
+						</div>
+					</div>
+
+					<div class="col-md-4 col-xs-6">
+						<div class="button"> 
+						Bootstrap			
+		  				</div>
+					</div>
+
+					<div class="col-md-4 col-xs-6">
+						<div class="button">		  				
+							 Sass/Lass 
+						</div>
+					</div>		
 				</div>
-			</li>
-			<li>
-				<div class="list_slider">
-					<img src="#" alt="">
-					<img src="#" alt="">
-					<img src="#" alt="">
+
+				<div class="table-row">
+					<div class="col-md-4 col-xs-6">
+						<div class="button"> 
+						Wordpress 
+						</div>
+					</div>
+
+					<div class="col-md-4 col-xs-6">
+						<div class="button"> 
+						Photoshop
+						</div>
+					</div>
+
+					<div class="col-md-4 col-xs-6">
+						<div class="button">
+		  					 Git
+						</div>
+					</div>
 				</div>
-			</li>
-			<li>
-				<div class="list_slider">
-					<img src="#" alt="">
-					<img src="#" alt="">
-					<img src="#" alt="">
-				</div>
-			</li>
-			<li>
-				<div class="list_slider">
-					<img src="#" alt="">
-					<img src="#" alt="">
-					<img src="#" alt="">
-				</div>
-			</li>
-		</ul>
+			</table>
 	</div>
-	<footer></footer>
+</div>
+<!--Parallax part ends-->
+
+<!--REFERENCES-->
+
+<div class="accordion" id="References">
+    <p class="tabs_heading"> Reviews of My Work </p>
+    	<div class="accordion-section">
+	        <a class="accordion-section-title" href="#accordion-1">Reference #1</a>
+		        <div id="accordion-1" class="accordion-section-content">
+		           <a href="assets/textdocs/recommended%20letter.jpg" target="_blank">
+		           <img src="assets/textdocs/recommended%20letter.jpg" title="Click to view"  width="320" height="400"></a>
+		        </div>
+
+	         <a class="accordion-section-title" href="#accordion-2">Reference #2</a>
+		        <div id="accordion-2" class="accordion-section-content">
+		            <a href="assets/textdocs/recommended%20letter.jpg" target="_blank">
+		            <img src="assets/textdocs/recommended%20letter.jpg" title="Click to view"  width="320" height="400"></a>
+		        </div>
+
+	         <a class="accordion-section-title" href="#accordion-3">Reference #3</a>
+		        <div id="accordion-3" class="accordion-section-content">
+		            <a href="assets/textdocs/recommended%20letter.jpg" target="_blank">
+		            <img src="assets/textdocs/recommended%20letter.jpg" title="Click to view"  width="320" height="400"></a>
+	       		 </div>
+        </div> <!--end .accordion-section-->
+</div><!--end .accordion-->
+
+<!--REFERENCES END-->
+
+<!--RESUME-->	
+<div class="align-center">
+	<div class="cvfile" id="Resume"> If you are interested, you can dowload my CV:
+	 	<p><a class="btncv btn btn-lg" href="assets/textdocs/cv.docx" role="button">Download CV</a></p>
+	</div>
+</div>
+<!--RESUME END-->	
+<!--FOOTER-->
+<footer>
+	<div class="content-20-fixed footer">
+		<div class="white-text font-250 aleo-regular-text">
+			<h1  class="footer-first-line"><span class="icon-food"></span> Find me here:</h1>
+		</div>
+			
+			
+		<div class="white-text footer-icons-line">
+			<a href="https://www.facebook.com/nustee" target="_blank"class="icon"><i class="fa fa-facebook-square"></i></a>
+			<a href="https://github.com/nosnastya" target="_blank" class="icon"><i class="fa fa-github"></i></a>
+			<a href="https://instagram.com/nastyawesome" target="_blank" class="icon"><i class="fa fa-instagram"></i></a>
+			<a href="https://vk.com/nawesome" target="_blank" class="icon"><i class="fa fa-vk"></i></a>
+		</div> 
+		<div class="align-center red_text">
+			&copy; 2015 Anastasia Nos
+		</div>
+	</div>
+</footer>
+<!--FOOTER END-->
+
 </body>
 </html>

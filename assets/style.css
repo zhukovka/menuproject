@@ -1,271 +1,472 @@
-@font-face {
-    font-family: 'Aleo';
-    src: url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.eot'); /* IE9 Compat Modes */
-    /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
-    src: url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.eot?#iefix') format('embedded-opentype'), 
-        url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.woff') format('woff'), 
-        url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.ttf')  format('truetype'), 
-        url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.svg') format('svg'); /* Legacy iOS */               
-    font-style:   normal;
-    font-weight:  400;
 
-}
-
-@font-face {
-    font-family: 'Aleo_Bold';
-    src: url('fonts/Webfont%20Kit/Bold/aleo-bold-webfont.eot'); /* IE9 Compat Modes */
-    /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
-    src: url('fonts/Webfont%20Kit/Bold/aleo-bold-webfont.eot?#iefix') format('embedded-opentype'), 
-        url('fonts/Webfont%20Kit/Bold/aleo-bold-webfont.woff') format('woff'), 
-        url('fonts/Webfont%20Kit/Bold/aleo-bold-webfont.ttf')  format('truetype'), 
-        url('fonts/Webfont%20Kit/Bold/aleo-bold-webfont.svg') format('svg'); /* Legacy iOS */               
-    font-style:   normal;
-    font-weight:  400;
-
-}
-
-@font-face {
-    font-family: 'Aleo_Regular'; 
-    src: url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.eot'); /* IE9 Compat Modes */
-    /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
-    src: url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.eot?#iefix') format('embedded-opentype'), 
-        url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.woff') format('woff'), 
-        url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.ttf')  format('truetype'), 
-        url('fonts/Webfont%20Kit/Regular/aleo-regular-webfont.svg') format('svg'); /* Legacy iOS */               
-    font-style:   normal;
-    font-weight:  400;
-
-}
-
-@font-face {
-    font-family: 'Aleo_Light';
-    src: url('fonts/Webfont%20Kit/Light/aleo-light-webfont.eot'); /* IE9 Compat Modes */
-    /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
-    src: url('fonts/Webfont%20Kit/Light/aleo-light-webfont.eot?#iefix') format('embedded-opentype'), 
-        url('fonts/Webfont%20Kit/Light/aleo-light-webfont.woff') format('woff'), 
-        url('fonts/Webfont%20Kit/Light/aleo-light-webfont.ttf')  format('truetype'), 
-        url('fonts/Webfont%20Kit/Light/aleo-light-webfont.svg') format('svg'); /* Legacy iOS */               
-    font-style:   normal;
-    font-weight:  400;
-
-}
-
-@font-face {
-    font-family: 'Aleo_LightItalic';
-    src: url('fonts/Webfont%20Kit/Light Italic/aleo-lightitalic-webfont.eot'); /* IE9 Compat Modes */
-    /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
-    src: url('fonts/Webfont%20Kit/Light Italic/aleo-lightitalic-webfont.eot?#iefix') format('embedded-opentype'), 
-        url('fonts/Webfont%20Kit/Light Italic/aleo-lightitalic-webfont.woff') format('woff'), 
-        url('fonts/Webfont%20Kit/Light Italic/aleo-lightitalic-webfont.ttf')  format('truetype'), 
-        url('fonts/Webfont%20Kit/Light Italic/aleo-lightitalic-webfont.svg') format('svg'); /* Legacy iOS */               
-    font-style:   normal;
-    font-weight:  400;
-
-}
-
-@font-face {
-    font-family: 'Aleo_Regular_Italic';
-    src: url('fonts/Webfont%20Kit/Regular Italic/aleo-italic-webfont.eot'); /* IE9 Compat Modes */
-    /* IE6-IE8 *//* Modern Browsers *//* Safari, Android, iOS */
-    src: url('fonts/Webfont%20Kit/Regular Italic/aleo-italic-webfont.eot?#iefix') format('embedded-opentype'), 
-        url('fonts/Webfont%20Kit/Regular Italic/aleo-italic-webfont.woff') format('woff'), 
-        url('fonts/Webfont%20Kit/Regular Italic/aleo-italic-webfont.ttf')  format('truetype'), 
-        url('fonts/Webfont%20Kit/Regular Italic/aleo-italic-webfont.svg') format('svg'); /* Legacy iOS */               
-    font-style:   normal;
-    font-weight:  400;
-
-}
-
-@font-face {
-    font-family: 'museo_sans_cyrl500';
-    src: url('fonts/Webfont%20Kit/Museo Sans Cyrl 500/museosanscyrl_1-webfont.eot');
-    src: url('fonts/Webfont%20Kit/Museo Sans Cyrl 500/museosanscyrl_1-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Webfont%20Kit/Museo Sans Cyrl 500/museosanscyrl_1-webfont.woff2') format('woff2'),
-         url('fonts/Webfont%20Kit/Museo Sans Cyrl 500/museosanscyrl_1-webfont.woff') format('woff'),
-         url('fonts/Webfont%20Kit/Museo Sans Cyrl 500/museosanscyrl_1-webfont.ttf') format('truetype'),
-         url('fonts/Webfont%20Kit/Museo Sans Cyrl 500/museosanscyrl_1-webfont.svg#museo_sans_cyrl500') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'museo_sans_cyrl700';
-    src: url('fonts/Webfont%20Kit/Museo Sans Cyrl 700/museosanscyrl_2-webfont.eot');
-    src: url('fonts/Webfont%20Kit/Museo Sans Cyrl 700/museosanscyrl_2-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Webfont%20Kit/Museo Sans Cyrl 700/museosanscyrl_2-webfont.woff2') format('woff2'),
-         url('fonts/Webfont%20Kit/Museo Sans Cyrl 700/museosanscyrl_2-webfont.woff') format('woff'),
-         url('fonts/Webfont%20Kit/Museo Sans Cyrl 700/museosanscyrl_2-webfont.ttf') format('truetype'),
-         url('fonts/Webfont%20Kit/Museo Sans Cyrl 700/museosanscyrl_2-webfont.svg#museo_sans_cyrl700') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-body{
+/* CLEAR CSS CODE START */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
     margin: 0;
-    font-family: 'museo_sans_cyrl500';
+    padding: 0;
+    border: 0;
     font-size: 100%;
-    width: 100%; 
-    margin: 0 auto;
+    font: inherit;
+    vertical-align: baseline;
 }
-.heading{
-    font-family: 'Aleo_Regular';
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1; 
+    margin: 0;
+    font-family: 'Open Sans Condensed';
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* CLEAR CSS CODE END */
+
+/*Body*/
+
+.red_text {
+    color:#7f364a;
 }
 
-.heading-italic_text{
-    font-family: 'Aleo_LightItalic';
+.black_text{
+    color:black;
 }
 
-h1.heading{
-    font-size: 250%;
-
+.content-80 {
+    width: 80%;
+    margin: auto;
 }
 
-h2.heading{
-    font-size: 125%;
-}
-
-a.heading{
-    font-size: 157%;
-    color:white;
-
-}
-
-
-.heading-light_text{
-
-    font-family: 'Aleo_Light';
- 
-    
-}
-
-p {
-}
-
-.table-view{
-    display: table;
-    width: 100%;
-    background-color:#e4e5e7;
-    vertical-align: middle;
+.align-center {
     text-align: center;
-    
-}
-.picture-breakfast{
-    background: url(images/breakfast.jpg);
-    background-size: cover;
-    height:100%;
+} 
 
-}
-.picture-lunch{
-     background: url(images/lunch.jpg);
-     background-size: cover;
-     position:relative;
-     z-index:0;
-     top:0;
-     left:0;
-     width:100%;
-     height: 160px;
-}
-.picture-dinner{
-     background: url(images/dinner.jpg);
-     background-size: cover;
-     position:relative;
-     z-index:0;
-     top:0;
-     left:0;
-     width:100%;
-    height: 160px;
-     
 
-}
-*[class *= 'table-cell-view']{
-    display: table-cell;
 
+
+/*****NAVIGATION
+ 
+ нихрена не работало)
+
+
+.navbar-brand {
+ color:#fff200;
+ font-style: bold;
+font-family: 'Open Sans Condensed';
+text-transform: uppercase;
+}*/
+
+
+
+
+/****************
+HEADER
+*****************/
+
+.caption {
+    position: relative;
+    overflow: hidden;
+    height:300px;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
 }
 
-.table-cell-view-25{
-    width: 25%;
 
+.caption__media {
+    display: block;
+    width: auto;
+    height: 100%;
+    margin: auto;
 }
-.table-cell-view-100{
-    width: 100%;
 
-}
-.offers{
-    height: 160px;
+.caption__media:hover {
     position: absolute;
+    -webkit-transform: translateX( -webkit-calc(-100% - 10px) );
+    transform: translateX( calc(-100% - 10px) );
+    transition: -webkit-transform .35s ease-out;
+    transition: transform .35s ease-out;
+}
+
+
+.caption::before {
+    content: ' ';
+    position: absolute ; 
+    top: 0;
+    right: 0;
     bottom: 0;
     left: 0;
-    
+    background: transparent;
+    transition: background .35s ease-out;
+}
 
+.caption:hover::before {
+    background: rgba(0, 0, 0, .5);
 }
-.orange{
-    background-color:#f15a29;
+
+
+.caption__overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: white;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    transition: -webkit-transform .35s ease-out;
+    transition: transform .35s ease-out;
 }
-.offers > .table-cell-view-25{
+
+.caption:hover .caption__overlay {
+    transform: translateY(0);
+}
+
+.caption__overlay__title {
+    margin: 10px;
+    -webkit-transform: translateY( -webkit-calc(-100% - 10px) );
+    transform: translateY( calc(-100% - 10px) );
+    transition: -webkit-transform .35s ease-out;
+    transition: transform .35s ease-out;
+}
+
+.caption:hover .caption__overlay__title {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+
+
+
+
+/************
+ABOUT
+************/
+
+.table-view {
+    padding-top: 10px;
+    display: table;
+    width: 100%;
+    color: black;
+}
+
+*[class *= 'table-cell-view'] {
+    display: table-cell;
+}
+
+.grow {
+    transition: all .2s ease-in-out; 
+}
+
+.grow:hover{
+   transform: scale(1.3);
+}
+
+.table-cell-view-33 {
+    width: 33%;
+    padding-bottom: 25px;
+    font-size: 120%;
+}
+
+.table-cell-view-100 {
+    width: 100%;
+}
+
+
+.offers {
+    bottom: 0;
+    left: 0;
+}
+
+.offers > .table-cell-view-33 {
     vertical-align: middle;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Aleo_Light';
+}
+
+.offers a.heading-regular_text {
+    line-height: 105px;
+}
+
+.table-cell-top {
+    font-size: 200%;
+}
+
+.about {
+    background: white;
+    color: black;
+}
+
+.button {
+    border: 1px solid #e85a25;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #e85a25;
+    padding: 20px ;
+    font-family: 'museo_sans_cyrl700';
+    font-size: 100%;
+    text-transform: capitalize;
+    margin: 20px 20px 0 80px;
+    cursor: default; 
+    text-align: center;
+    width: 50%;
+   
+}
+.button:hover {
+    background-color: #e85a25;
+    color: #fff;
+}
+
+/************
+"ABOUT"" END
+
+"SKILLS" START
+************/
+
+.parallax {
+    background: url(images/bwflower.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 450px;
+    clear: both;
+    max-width: 80%;
+    margin:auto
+}
+.cursive-text {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 300%;
+    padding: 60px 0 0;
+    text-align: center;
+    color: #ffbacc;
+}
+
+
+.cursive-text_white{
+    color: white;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 300%;
+    padding: 60px 0 0;
+    text-align: center;
+}
+/************ "SKILLS" END ************/
+
+/*********** REFERENCES START***********/
+
+.tabs_heading {
+    color: #e85a25;
+    font-style: bold;
+    font-family: 'Open Sans Condensed'; 
+    text-align: center;
+    padding: 50px 0;
+    height:50px;
+    font-size: 200%;
+    border-bottom: 3px solid #bd4113;
+}
+/*----- Accordion -----*/
+.accordion, .accordion * {
+    -webkit-box-sizing:border-box; 
+    -moz-box-sizing:border-box; 
+    box-sizing:border-box;
+}
+ 
+.accordion {
+    overflow:hidden;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+    border-radius:3px;
+    background: white;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    text-shadow:0px 1px 0px #fff;
+}
+ 
+/*----- Section Titles -----*/
+.accordion-section-title {
+    width:100%;
+    padding:15px;
+    display:inline-block;
+    border-bottom:1px solid #1a1a1a;
+    background:#e85a25;
+    transition:all linear 0.15s;
+    /* Type */
+    font-size:1.200em;
+    text-shadow:0px 1px 0px #f36767;
+    color: #fff;
+}
+ 
+.accordion-section-title:hover {
+    background: rgb(78, 74, 99);
+    color:white;
+}
+ 
+.accordion-section-title {
+    border-bottom:none;
+    display: block;
+    padding: 17px 30px;
+    background: #e85a25;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 150%;
+    font-family: 'Open Sans Condensed';
+    text-align: center;
+    height: 80px;
+}
+ 
+/*----- Section Content -----*/
+.accordion-section-content {
+    padding:15px;
+    display:none;
     text-align: center;
 }
 
-.offers a.heading{
-    line-height: 80px;
-    text-decoration: none;
-    
+/*********** REFERENCES END***********/
 
-}
-                /*HEADER START*/
-.banner{
-    background: url(images/burgers.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 634px;
-    
-
-}
-
-.logo{
+/*
+CV START
+******************/
+.cvfile {
+    background: white;
+    background-attachment: fixed;
     height: 100%;
-    width: 35%;
-    margin: auto;
-    color: white;
+    text-align: center;
+    color: #f36767;
+    text-transform: uppercase;
+    font-size: 150%;
+    font-family: 'Open Sans Condensed';
+    text-align: center;
+    text-shadow:0px 1px 0px #1a1a1a;
+    margin-bottom: 30px;
+}
+
+.btncv {
+    font-size: 350%;
+    text-transform: uppercase;
+    height: 50px;
+    margin: 50px 0 0 0;
+    text-align: center;
     vertical-align: middle;
+    font-family: 'Open Sans Condensed';
+    background-color: #f36767;
+    color: white;
+}
+
+/*********** CV ENDS ***********/
+
+ /*------------ FOOTER STARTS---------*/
+
+
+footer {
+    height: 280px;
+    background-color: #f36767;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer-first-line {
+    font-family: 'museo_sans_cyrl700';
+    color: #fff;
+    font-size: 150%;
+}
+
+.footer-second-line {
+    margin-top: 15px;
+}
+
+.footer-icons-line {
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.icon {
+    font-size: 220%;
+    margin: 0 15px;
+}
+
+a.icon {
+    color: #fff;
+}
+
+h1.icon{
+    color: #fff;
 }
 
 
-/*-----------------------------*/
-.mainBlock{
-    /*float: left;*/
-    /*width: 30%;*/
-    background-color: yellow;
-}
-
-header{
-    position: relative;
-    height: 100vh;
-}
-
-nav.navigation{
-    position: absolute;
-    top: 0;
-}
-/*--------article---------------------*/
-section{
-    width: 80%;
-    position: static;
-    margin: auto;
-}
-#fast-food{
-    width: 100%;
-}
-.fast-food_picture{
-    float:left;
+/*****--------------*************
+@media screen and (max-width: 992px){
     
-    margin-right: 20px; /* Отступ справа */
-    width: 50%; 
-}
-.dinner_picture{
-    float:right;
+    .logo {
+        width: 80%;
+    }
 
-    margin-left: 20px; /* Отступ справа */
-    width: 5s0%; 
+    .logo .icon-food {
+        height: 170px;
+        width: 170px;
+        margin-bottom: 20px;
+    }
+
+    h1.heading {
+        font-size: 150%;
+    }
 }
+
+/************
+*tablets*
+***********
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+    h1.heading.logo {
+        position: absolute;
+        width: 100%;
+        top: 30%;
+        padding: 0;
+    }
+}
+/***********
+*phones*
+***********
+@media screen and (min-device-width: 414px) and (max-device-width: 767px) and (orientation: portrait) {
+
+    h1.heading.logo {
+        position: absolute;
+        width: 100%;
+        top: 20%;
+        padding: 0;
+    }
+
+} 
+
